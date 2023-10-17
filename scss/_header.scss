@@ -1,0 +1,55 @@
+:root {
+  --bgcmenu: #111111c0;
+  --bgca: #c5c5c5;
+}
+
+header {
+  width: 100%;
+  height: 40px;
+  background-color: var(--bgcmenu);
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  > nav {
+    width: inherit;
+    height: inherit;
+    > ul {
+      width: 80%;
+      height: inherit;
+      margin: 0 auto;
+      list-style: none;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      gap: 10px;
+      > span {
+        margin-top: 8px;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+      > li {
+        width: auto;
+        height: inherit;
+
+        > a {
+          display: flex;
+          flex-flow: row wrap;
+          width: 100%;
+          height: inherit;
+          // background-color: brown;
+          padding: 0 10px;
+          justify-content: center;
+          align-content: center;
+          text-decoration: none;
+          color: var(--bgca);
+          font-family: fantasy, Geneva, Tahoma, sans-serif;
+          font-size: small;
+          &:hover {
+            background-color: rgb(51, 51, 51);
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

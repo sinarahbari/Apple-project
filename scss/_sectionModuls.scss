@@ -1,0 +1,55 @@
+@mixin section($width: 100%) {
+  @include WH($width, 580px);
+  position: relative;
+  > div.box {
+    width: 100%;
+    height: inherit;
+    > a {
+      display: flex;
+      width: 100%;
+      height: inherit;
+      text-decoration: none;
+      color: $linkcolor;
+      &:hover {
+        text-decoration: underline;
+      }
+      > img {
+        @include WH(100%, inherit);
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+  > div.title {
+    position: absolute;
+    @include WH(100%, auto);
+    // background-color: tomato;
+    top: 47px;
+    @include FlexC;
+    align-items: center;
+    align-content: center;
+
+    > h2 {
+      font-size: 50px;
+
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+    }
+    > h3 {
+      font-size: 25px;
+
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+    }
+    > div {
+      @include FlexR;
+    }
+    > a {
+      padding: 0 20px;
+      font-size: 20px;
+      text-decoration: none;
+      color: $linkcolor;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

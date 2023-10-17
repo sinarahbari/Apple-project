@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: fantasy, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.fontcolorBLACK {
+  color: $black;
+}
+
+.fontcolorWHITE {
+  color: $white;
+}
+
+.topclear {
+  top: unset !important;
+}
+
+.bottomTitle {
+  bottom: 47px;
+}
+
+@for $i from 0 through 20 {
+  .p-#{$i * 2} {
+    padding: 0 px #{$i * 2};
+  }
+}
