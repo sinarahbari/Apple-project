@@ -83,8 +83,10 @@ body {
   padding: 0 px 40; }
 
 :root {
-  --bgcmenu: #111111c0;
-  --bgca: #c5c5c5; }
+  --bgcmenu: #111111e3;
+  --bgcmenu1: #111111;
+  --bgca: #c5c5c5;
+  --bgcb: #7a7a7a; }
 
 header {
   width: 100%;
@@ -112,6 +114,576 @@ header {
       header > nav > ul > li {
         width: auto;
         height: inherit; }
+        header > nav > ul > li > div.nav1 {
+          width: 1575%;
+          height: 400px;
+          position: relative;
+          background-color: var(--bgcmenu1);
+          display: none; }
+          header > nav > ul > li > div.nav1 > .firstone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            text-align: left; }
+            header > nav > ul > li > div.nav1 > .firstone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav1 > .firstone > h6 > li {
+                font-size: 20px;
+                font-weight: bolder;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav1 > .secondone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 250px;
+            text-align: left; }
+            header > nav > ul > li > div.nav1 > .secondone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav1 > .secondone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav1 > .thirdone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 500px;
+            text-align: left; }
+            header > nav > ul > li > div.nav1 > .thirdone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px; }
+              header > nav > ul > li > div.nav1 > .thirdone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px; }
+        header > nav > ul > li:hover > div.nav1 {
+          display: inline-block; }
+        header > nav > ul > li > div.nav2 {
+          width: 1867%;
+          margin-left: -60px;
+          height: 400px;
+          background-color: var(--bgcmenu1);
+          display: none; }
+          header > nav > ul > li > div.nav2 > .firstone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            text-align: left; }
+            header > nav > ul > li > div.nav2 > .firstone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav2 > .firstone > h6 > li {
+                font-size: 20px;
+                font-weight: bolder;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav2 > .secondone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 250px;
+            text-align: left; }
+            header > nav > ul > li > div.nav2 > .secondone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav2 > .secondone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav2 > .thirdone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 500px;
+            text-align: left; }
+            header > nav > ul > li > div.nav2 > .thirdone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px; }
+              header > nav > ul > li > div.nav2 > .thirdone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px; }
+        header > nav > ul > li:hover > div.nav2 {
+          display: inline-block; }
+        header > nav > ul > li > div.nav3 {
+          width: 1825%;
+          margin-left: -113px;
+          height: 400px;
+          background-color: var(--bgcmenu1);
+          display: none; }
+          header > nav > ul > li > div.nav3 > .firstone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap; }
+            header > nav > ul > li > div.nav3 > .firstone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav3 > .firstone > h6 > li {
+                font-size: 20px;
+                font-weight: bolder;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav3 > .secondone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 250px; }
+            header > nav > ul > li > div.nav3 > .secondone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav3 > .secondone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav3 > .thirdone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 500px; }
+            header > nav > ul > li > div.nav3 > .thirdone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px; }
+              header > nav > ul > li > div.nav3 > .thirdone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px; }
+        header > nav > ul > li:hover > div.nav3 {
+          display: inline-block; }
+        header > nav > ul > li > div.nav4 {
+          width: 1385%;
+          margin-left: -167px;
+          height: 400px;
+          background-color: var(--bgcmenu1);
+          display: none; }
+          header > nav > ul > li > div.nav4 > .firstone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap; }
+            header > nav > ul > li > div.nav4 > .firstone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav4 > .firstone > h6 > li {
+                font-size: 20px;
+                font-weight: bolder;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav4 > .secondone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 250px; }
+            header > nav > ul > li > div.nav4 > .secondone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav4 > .secondone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav4 > .thirdone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 500px; }
+            header > nav > ul > li > div.nav4 > .thirdone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px; }
+              header > nav > ul > li > div.nav4 > .thirdone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px; }
+        header > nav > ul > li:hover > div.nav4 {
+          display: inline-block; }
+        header > nav > ul > li > div.nav5 {
+          width: 1433%;
+          margin-left: -235px;
+          height: 400px;
+          background-color: var(--bgcmenu1);
+          display: none; }
+          header > nav > ul > li > div.nav5 > .firstone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap; }
+            header > nav > ul > li > div.nav5 > .firstone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav5 > .firstone > h6 > li {
+                font-size: 18px;
+                font-weight: bolder;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav5 > .secondone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 250px; }
+            header > nav > ul > li > div.nav5 > .secondone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav5 > .secondone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav5 > .thirdone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 500px; }
+            header > nav > ul > li > div.nav5 > .thirdone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px; }
+              header > nav > ul > li > div.nav5 > .thirdone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px; }
+        header > nav > ul > li:hover > div.nav5 {
+          display: inline-block; }
+        header > nav > ul > li:hover > div.nav6 {
+          display: inline-block; }
+        header > nav > ul > li > div.nav7 {
+          width: 1273%;
+          margin-left: -365px;
+          height: 400px;
+          background-color: var(--bgcmenu1);
+          display: none; }
+          header > nav > ul > li > div.nav7 > .firstone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap; }
+            header > nav > ul > li > div.nav7 > .firstone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav7 > .firstone > h6 > li {
+                font-size: 18px;
+                font-weight: bolder;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav7 > .secondone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 250px; }
+            header > nav > ul > li > div.nav7 > .secondone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav7 > .secondone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav7 > .thirdone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 500px; }
+            header > nav > ul > li > div.nav7 > .thirdone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px; }
+              header > nav > ul > li > div.nav7 > .thirdone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px; }
+        header > nav > ul > li:hover > div.nav7 {
+          display: inline-block; }
+        header > nav > ul > li > div.nav8 {
+          width: 933%;
+          margin-left: -438px;
+          height: 400px;
+          background-color: var(--bgcmenu1);
+          display: none; }
+          header > nav > ul > li > div.nav8 > .firstone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap; }
+            header > nav > ul > li > div.nav8 > .firstone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav8 > .firstone > h6 > li {
+                font-size: 18px;
+                font-weight: bolder;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav8 > .secondone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 250px; }
+            header > nav > ul > li > div.nav8 > .secondone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav8 > .secondone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav8 > .thirdone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 500px; }
+            header > nav > ul > li > div.nav8 > .thirdone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav8 > .thirdone > h6 > li {
+                font-size: 12px;
+                font-weight: bolder;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        header > nav > ul > li:hover > div.nav8 {
+          display: inline-block; }
+        header > nav > ul > li > div.nav9 {
+          width: 802%;
+          margin-left: -534px;
+          height: 400px;
+          background-color: var(--bgcmenu1);
+          display: none; }
+          header > nav > ul > li > div.nav9 > .firstone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap; }
+            header > nav > ul > li > div.nav9 > .firstone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav9 > .firstone > h6 > li {
+                font-size: 18px;
+                font-weight: bolder;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav9 > .secondone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 250px; }
+            header > nav > ul > li > div.nav9 > .secondone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav9 > .secondone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        header > nav > ul > li:hover > div.nav9 {
+          display: inline-block; }
+        header > nav > ul > li > div.nav10 {
+          width: 922%;
+          margin-left: -644px;
+          height: 400px;
+          background-color: var(--bgcmenu1);
+          display: none; }
+          header > nav > ul > li > div.nav10 > .firstone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap; }
+            header > nav > ul > li > div.nav10 > .firstone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav10 > .firstone > h6 > li {
+                font-size: 18px;
+                font-weight: bolder;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav10 > .secondone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 250px; }
+            header > nav > ul > li > div.nav10 > .secondone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav10 > .secondone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        header > nav > ul > li:hover > div.nav10 {
+          display: inline-block; }
+        header > nav > ul > li > div.nav11 {
+          width: 1240%;
+          margin-left: -741px;
+          height: 400px;
+          background-color: var(--bgcmenu1);
+          display: none; }
+          header > nav > ul > li > div.nav11 > .firstone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap; }
+            header > nav > ul > li > div.nav11 > .firstone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav11 > .firstone > h6 > li {
+                font-size: 18px;
+                font-weight: bolder;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav11 > .secondone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 250px; }
+            header > nav > ul > li > div.nav11 > .secondone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav11 > .secondone > h6 > li {
+                font-size: 12px;
+                font-weight: bold;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          header > nav > ul > li > div.nav11 > .thirdone {
+            width: 200px;
+            height: 350px;
+            position: absolute;
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 500px; }
+            header > nav > ul > li > div.nav11 > .thirdone > h6 {
+              font-size: small;
+              color: var(--bgcb);
+              margin-top: 20px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              header > nav > ul > li > div.nav11 > .thirdone > h6 > li {
+                font-size: 12px;
+                font-weight: bolder;
+                color: var(--bgca);
+                margin-top: 10px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        header > nav > ul > li:hover > div.nav11 {
+          display: inline-block; }
         header > nav > ul > li > a {
           display: flex;
           flex-flow: row wrap;
