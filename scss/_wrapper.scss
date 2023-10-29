@@ -1,14 +1,84 @@
-main {
-  @include WH(100%, auto);
-  @include FlexC;
-  > section.first {
-    @include section(100%);
+@include xl {
+  main {
+    @include WH(100%, auto);
+    @include FlexC;
+    > section.first {
+      @include section(100%);
+    }
+    > section.second {
+      @include WH(100%, auto);
+      @include FlexR;
+      > div {
+        @include section(50%);
+      }
+    }
   }
-  >section.second{
-    @include WH(100%,auto);
-    @include FlexR;
-    >div{
-      @include section(50%);
+}
+
+@include lg {
+  main {
+    @include WH(100%, auto);
+    @include FlexC;
+    > section.first {
+      @include section(100%);
+    }
+    > section.second {
+      @include WH(100%, auto);
+      @include FlexR;
+      > div {
+        @include section(50%);
+      }
+    }
+  }
+}
+
+@include md {
+  main {
+    @include WH(100%, auto);
+    @include FlexC;
+    > section.first {
+      @include section(100%);
+    }
+    > section.second {
+      @include WH(100%, auto);
+      @include FlexR;
+      > div {
+        @include section(50%);
+      }
+    }
+  }
+}
+
+@include sm {
+  main {
+    @include WH(100%, auto);
+    @include FlexC;
+    > section.first {
+      @include section(100%);
+    }
+    > section.second {
+      @include WH(100%, auto);
+      @include FlexR;
+      > div {
+        @include section(50%);
+      }
+    }
+  }
+}
+
+@include xs {
+  main {
+    @include WH(100%, auto);
+    @include FlexC;
+    > section.first {
+      @include section(100%);
+    }
+    > section.second {
+      @include WH(100%, auto);
+      @include FlexR;
+      > div {
+        @include section(50%);
+      }
     }
   }
 }

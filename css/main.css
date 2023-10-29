@@ -700,86 +700,34 @@ header {
             background-color: #333333;
             cursor: pointer; }
 
-main {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-flow: column wrap;
-  gap: 10px; }
-  main > section.first {
-    width: 100%;
-    height: 580px;
-    position: relative; }
-    main > section.first > div.box {
-      width: 100%;
-      height: inherit; }
-      main > section.first > div.box > a {
-        display: flex;
-        width: 100%;
-        height: inherit;
-        text-decoration: none;
-        color: #2997ff; }
-        main > section.first > div.box > a:hover {
-          text-decoration: underline; }
-        main > section.first > div.box > a > img {
-          width: 100%;
-          height: inherit;
-          object-fit: cover;
-          object-position: center; }
-    main > section.first > div.title {
-      position: absolute;
-      width: 100%;
-      height: auto;
-      top: 47px;
-      display: flex;
-      flex-flow: column wrap;
-      gap: 10px;
-      align-items: center;
-      align-content: center; }
-      main > section.first > div.title > h2 {
-        font-size: 50px;
-        font-family: fantasy, Geneva, Tahoma, sans-serif; }
-      main > section.first > div.title > h3 {
-        font-size: 25px;
-        font-family: fantasy, Geneva, Tahoma, sans-serif; }
-      main > section.first > div.title > div {
-        display: flex;
-        flex-flow: row nowrap;
-        gap: 10px; }
-      main > section.first > div.title > a {
-        padding: 0 20px;
-        font-size: 20px;
-        text-decoration: none;
-        color: #2997ff; }
-        main > section.first > div.title > a:hover {
-          text-decoration: underline; }
-  main > section.second {
+@media all and (min-width: 1200px) {
+  main {
     width: 100%;
     height: auto;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column wrap;
     gap: 10px; }
-    main > section.second > div {
-      width: 50%;
+    main > section.first {
+      width: 100%;
       height: 580px;
       position: relative; }
-      main > section.second > div > div.box {
+      main > section.first > div.box {
         width: 100%;
         height: inherit; }
-        main > section.second > div > div.box > a {
+        main > section.first > div.box > a {
           display: flex;
           width: 100%;
           height: inherit;
           text-decoration: none;
           color: #2997ff; }
-          main > section.second > div > div.box > a:hover {
+          main > section.first > div.box > a:hover {
             text-decoration: underline; }
-          main > section.second > div > div.box > a > img {
+          main > section.first > div.box > a > img {
             width: 100%;
             height: inherit;
             object-fit: cover;
             object-position: center; }
-      main > section.second > div > div.title {
+      main > section.first > div.title {
         position: absolute;
         width: 100%;
         height: auto;
@@ -789,23 +737,508 @@ main {
         gap: 10px;
         align-items: center;
         align-content: center; }
-        main > section.second > div > div.title > h2 {
+        main > section.first > div.title > h2 {
           font-size: 50px;
           font-family: fantasy, Geneva, Tahoma, sans-serif; }
-        main > section.second > div > div.title > h3 {
+        main > section.first > div.title > h3 {
           font-size: 25px;
           font-family: fantasy, Geneva, Tahoma, sans-serif; }
-        main > section.second > div > div.title > div {
+        main > section.first > div.title > div {
           display: flex;
           flex-flow: row nowrap;
           gap: 10px; }
-        main > section.second > div > div.title > a {
+        main > section.first > div.title > a {
           padding: 0 20px;
           font-size: 20px;
           text-decoration: none;
           color: #2997ff; }
-          main > section.second > div > div.title > a:hover {
+          main > section.first > div.title > a:hover {
             text-decoration: underline; }
+    main > section.second {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 10px; }
+      main > section.second > div {
+        width: 50%;
+        height: 580px;
+        position: relative; }
+        main > section.second > div > div.box {
+          width: 100%;
+          height: inherit; }
+          main > section.second > div > div.box > a {
+            display: flex;
+            width: 100%;
+            height: inherit;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.second > div > div.box > a:hover {
+              text-decoration: underline; }
+            main > section.second > div > div.box > a > img {
+              width: 100%;
+              height: inherit;
+              object-fit: cover;
+              object-position: center; }
+        main > section.second > div > div.title {
+          position: absolute;
+          width: 100%;
+          height: auto;
+          top: 47px;
+          display: flex;
+          flex-flow: column wrap;
+          gap: 10px;
+          align-items: center;
+          align-content: center; }
+          main > section.second > div > div.title > h2 {
+            font-size: 50px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.second > div > div.title > h3 {
+            font-size: 25px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.second > div > div.title > div {
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 10px; }
+          main > section.second > div > div.title > a {
+            padding: 0 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.second > div > div.title > a:hover {
+              text-decoration: underline; } }
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px; }
+    main > section.first {
+      width: 100%;
+      height: 580px;
+      position: relative; }
+      main > section.first > div.box {
+        width: 100%;
+        height: inherit; }
+        main > section.first > div.box > a {
+          display: flex;
+          width: 100%;
+          height: inherit;
+          text-decoration: none;
+          color: #2997ff; }
+          main > section.first > div.box > a:hover {
+            text-decoration: underline; }
+          main > section.first > div.box > a > img {
+            width: 100%;
+            height: inherit;
+            object-fit: cover;
+            object-position: center; }
+      main > section.first > div.title {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 47px;
+        display: flex;
+        flex-flow: column wrap;
+        gap: 10px;
+        align-items: center;
+        align-content: center; }
+        main > section.first > div.title > h2 {
+          font-size: 50px;
+          font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        main > section.first > div.title > h3 {
+          font-size: 25px;
+          font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        main > section.first > div.title > div {
+          display: flex;
+          flex-flow: row nowrap;
+          gap: 10px; }
+        main > section.first > div.title > a {
+          padding: 0 20px;
+          font-size: 20px;
+          text-decoration: none;
+          color: #2997ff; }
+          main > section.first > div.title > a:hover {
+            text-decoration: underline; }
+    main > section.second {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 10px; }
+      main > section.second > div {
+        width: 50%;
+        height: 580px;
+        position: relative; }
+        main > section.second > div > div.box {
+          width: 100%;
+          height: inherit; }
+          main > section.second > div > div.box > a {
+            display: flex;
+            width: 100%;
+            height: inherit;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.second > div > div.box > a:hover {
+              text-decoration: underline; }
+            main > section.second > div > div.box > a > img {
+              width: 100%;
+              height: inherit;
+              object-fit: cover;
+              object-position: center; }
+        main > section.second > div > div.title {
+          position: absolute;
+          width: 100%;
+          height: auto;
+          top: 47px;
+          display: flex;
+          flex-flow: column wrap;
+          gap: 10px;
+          align-items: center;
+          align-content: center; }
+          main > section.second > div > div.title > h2 {
+            font-size: 50px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.second > div > div.title > h3 {
+            font-size: 25px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.second > div > div.title > div {
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 10px; }
+          main > section.second > div > div.title > a {
+            padding: 0 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.second > div > div.title > a:hover {
+              text-decoration: underline; } }
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px; }
+    main > section.first {
+      width: 100%;
+      height: 580px;
+      position: relative; }
+      main > section.first > div.box {
+        width: 100%;
+        height: inherit; }
+        main > section.first > div.box > a {
+          display: flex;
+          width: 100%;
+          height: inherit;
+          text-decoration: none;
+          color: #2997ff; }
+          main > section.first > div.box > a:hover {
+            text-decoration: underline; }
+          main > section.first > div.box > a > img {
+            width: 100%;
+            height: inherit;
+            object-fit: cover;
+            object-position: center; }
+      main > section.first > div.title {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 47px;
+        display: flex;
+        flex-flow: column wrap;
+        gap: 10px;
+        align-items: center;
+        align-content: center; }
+        main > section.first > div.title > h2 {
+          font-size: 50px;
+          font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        main > section.first > div.title > h3 {
+          font-size: 25px;
+          font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        main > section.first > div.title > div {
+          display: flex;
+          flex-flow: row nowrap;
+          gap: 10px; }
+        main > section.first > div.title > a {
+          padding: 0 20px;
+          font-size: 20px;
+          text-decoration: none;
+          color: #2997ff; }
+          main > section.first > div.title > a:hover {
+            text-decoration: underline; }
+    main > section.second {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 10px; }
+      main > section.second > div {
+        width: 50%;
+        height: 580px;
+        position: relative; }
+        main > section.second > div > div.box {
+          width: 100%;
+          height: inherit; }
+          main > section.second > div > div.box > a {
+            display: flex;
+            width: 100%;
+            height: inherit;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.second > div > div.box > a:hover {
+              text-decoration: underline; }
+            main > section.second > div > div.box > a > img {
+              width: 100%;
+              height: inherit;
+              object-fit: cover;
+              object-position: center; }
+        main > section.second > div > div.title {
+          position: absolute;
+          width: 100%;
+          height: auto;
+          top: 47px;
+          display: flex;
+          flex-flow: column wrap;
+          gap: 10px;
+          align-items: center;
+          align-content: center; }
+          main > section.second > div > div.title > h2 {
+            font-size: 50px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.second > div > div.title > h3 {
+            font-size: 25px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.second > div > div.title > div {
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 10px; }
+          main > section.second > div > div.title > a {
+            padding: 0 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.second > div > div.title > a:hover {
+              text-decoration: underline; } }
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+  main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px; }
+    main > section.first {
+      width: 100%;
+      height: 580px;
+      position: relative; }
+      main > section.first > div.box {
+        width: 100%;
+        height: inherit; }
+        main > section.first > div.box > a {
+          display: flex;
+          width: 100%;
+          height: inherit;
+          text-decoration: none;
+          color: #2997ff; }
+          main > section.first > div.box > a:hover {
+            text-decoration: underline; }
+          main > section.first > div.box > a > img {
+            width: 100%;
+            height: inherit;
+            object-fit: cover;
+            object-position: center; }
+      main > section.first > div.title {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 47px;
+        display: flex;
+        flex-flow: column wrap;
+        gap: 10px;
+        align-items: center;
+        align-content: center; }
+        main > section.first > div.title > h2 {
+          font-size: 50px;
+          font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        main > section.first > div.title > h3 {
+          font-size: 25px;
+          font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        main > section.first > div.title > div {
+          display: flex;
+          flex-flow: row nowrap;
+          gap: 10px; }
+        main > section.first > div.title > a {
+          padding: 0 20px;
+          font-size: 20px;
+          text-decoration: none;
+          color: #2997ff; }
+          main > section.first > div.title > a:hover {
+            text-decoration: underline; }
+    main > section.second {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 10px; }
+      main > section.second > div {
+        width: 50%;
+        height: 580px;
+        position: relative; }
+        main > section.second > div > div.box {
+          width: 100%;
+          height: inherit; }
+          main > section.second > div > div.box > a {
+            display: flex;
+            width: 100%;
+            height: inherit;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.second > div > div.box > a:hover {
+              text-decoration: underline; }
+            main > section.second > div > div.box > a > img {
+              width: 100%;
+              height: inherit;
+              object-fit: cover;
+              object-position: center; }
+        main > section.second > div > div.title {
+          position: absolute;
+          width: 100%;
+          height: auto;
+          top: 47px;
+          display: flex;
+          flex-flow: column wrap;
+          gap: 10px;
+          align-items: center;
+          align-content: center; }
+          main > section.second > div > div.title > h2 {
+            font-size: 50px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.second > div > div.title > h3 {
+            font-size: 25px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.second > div > div.title > div {
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 10px; }
+          main > section.second > div > div.title > a {
+            padding: 0 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.second > div > div.title > a:hover {
+              text-decoration: underline; } }
+
+@media all and (min-width: 300px) and (max-width: 575px) {
+  main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px; }
+    main > section.first {
+      width: 100%;
+      height: 580px;
+      position: relative; }
+      main > section.first > div.box {
+        width: 100%;
+        height: inherit; }
+        main > section.first > div.box > a {
+          display: flex;
+          width: 100%;
+          height: inherit;
+          text-decoration: none;
+          color: #2997ff; }
+          main > section.first > div.box > a:hover {
+            text-decoration: underline; }
+          main > section.first > div.box > a > img {
+            width: 100%;
+            height: inherit;
+            object-fit: cover;
+            object-position: center; }
+      main > section.first > div.title {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 47px;
+        display: flex;
+        flex-flow: column wrap;
+        gap: 10px;
+        align-items: center;
+        align-content: center; }
+        main > section.first > div.title > h2 {
+          font-size: 50px;
+          font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        main > section.first > div.title > h3 {
+          font-size: 25px;
+          font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        main > section.first > div.title > div {
+          display: flex;
+          flex-flow: row nowrap;
+          gap: 10px; }
+        main > section.first > div.title > a {
+          padding: 0 20px;
+          font-size: 20px;
+          text-decoration: none;
+          color: #2997ff; }
+          main > section.first > div.title > a:hover {
+            text-decoration: underline; }
+    main > section.second {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 10px; }
+      main > section.second > div {
+        width: 50%;
+        height: 580px;
+        position: relative; }
+        main > section.second > div > div.box {
+          width: 100%;
+          height: inherit; }
+          main > section.second > div > div.box > a {
+            display: flex;
+            width: 100%;
+            height: inherit;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.second > div > div.box > a:hover {
+              text-decoration: underline; }
+            main > section.second > div > div.box > a > img {
+              width: 100%;
+              height: inherit;
+              object-fit: cover;
+              object-position: center; }
+        main > section.second > div > div.title {
+          position: absolute;
+          width: 100%;
+          height: auto;
+          top: 47px;
+          display: flex;
+          flex-flow: column wrap;
+          gap: 10px;
+          align-items: center;
+          align-content: center; }
+          main > section.second > div > div.title > h2 {
+            font-size: 50px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.second > div > div.title > h3 {
+            font-size: 25px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.second > div > div.title > div {
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 10px; }
+          main > section.second > div > div.title > a {
+            padding: 0 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.second > div > div.title > a:hover {
+              text-decoration: underline; } }
 
 :root {
   --bgcg0: rgb(224, 224, 224);
