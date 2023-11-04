@@ -1,5 +1,11 @@
+@mixin xxl {
+  @media #{$mediaType} and (min-width: $xxl) {
+    @content;
+  }
+}
+
 @mixin xl {
-  @media #{$mediaType} and (min-width: $xl) {
+  @media #{$mediaType} and (min-width: $xl) and (max-width:#{$xxl - 1px}) {
     @content;
   }
 }

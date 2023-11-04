@@ -88,619 +88,2001 @@ body {
   --bgca: #c5c5c5;
   --bgcb: #7a7a7a; }
 
-header {
-  width: 100%;
-  height: 40px;
-  background-color: var(--bgcmenu);
-  position: fixed;
-  z-index: 2;
-  top: 0; }
-  header > nav {
-    width: inherit;
-    height: inherit; }
-    header > nav > ul {
-      width: 80%;
-      height: inherit;
-      margin: 0 auto;
-      list-style: none;
+@media all and (min-width: 1330px) {
+  .xxl-xl-lg header {
+    width: 100%;
+    height: 60px;
+    background-color: var(--bgcmenu1);
+    position: fixed;
+    z-index: 2;
+    top: 0; }
+    .xxl-xl-lg header > nav {
+      width: inherit;
+      height: inherit; }
+      .xxl-xl-lg header > nav > ul {
+        width: 80%;
+        height: inherit;
+        background-color: var(--bgcmenu);
+        margin: 0 auto;
+        list-style: none;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        gap: 20px; }
+        .xxl-xl-lg header > nav > ul > span {
+          margin-top: 20px; }
+        .xxl-xl-lg header > nav > ul > li {
+          width: auto;
+          height: inherit; }
+          .xxl-xl-lg header > nav > ul > li > .nav1 {
+            width: 5000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -280px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav1 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 230px; }
+              .xxl-xl-lg header > nav > ul > li > .nav1 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav1 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav1 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 430px; }
+              .xxl-xl-lg header > nav > ul > li > .nav1 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav1 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav1 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 570px; }
+              .xxl-xl-lg header > nav > ul > li > .nav1 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav1 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav1 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav2 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -380px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav2 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 280px; }
+              .xxl-xl-lg header > nav > ul > li > .nav2 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav2 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav2 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 470px; }
+              .xxl-xl-lg header > nav > ul > li > .nav2 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav2 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav2 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 600px; }
+              .xxl-xl-lg header > nav > ul > li > .nav2 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav2 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav2 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav3 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -380px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav3 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 240px; }
+              .xxl-xl-lg header > nav > ul > li > .nav3 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav3 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav3 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 450px; }
+              .xxl-xl-lg header > nav > ul > li > .nav3 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav3 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav3 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 580px; }
+              .xxl-xl-lg header > nav > ul > li > .nav3 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav3 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav3 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav4 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -480px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav4 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 300px; }
+              .xxl-xl-lg header > nav > ul > li > .nav4 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav4 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav4 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 500px; }
+              .xxl-xl-lg header > nav > ul > li > .nav4 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav4 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav4 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 650px; }
+              .xxl-xl-lg header > nav > ul > li > .nav4 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav4 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav4 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav5 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -480px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav5 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 230px; }
+              .xxl-xl-lg header > nav > ul > li > .nav5 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav5 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav5 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 480px; }
+              .xxl-xl-lg header > nav > ul > li > .nav5 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav5 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav5 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 650px; }
+              .xxl-xl-lg header > nav > ul > li > .nav5 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav5 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav5 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav7 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -600px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav7 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 250px; }
+              .xxl-xl-lg header > nav > ul > li > .nav7 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav7 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav7 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 480px; }
+              .xxl-xl-lg header > nav > ul > li > .nav7 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav7 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav7 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 650px; }
+              .xxl-xl-lg header > nav > ul > li > .nav7 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav7 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav7 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav8 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -700px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav8 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 280px; }
+              .xxl-xl-lg header > nav > ul > li > .nav8 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav8 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav8 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 500px; }
+              .xxl-xl-lg header > nav > ul > li > .nav8 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav8 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav8 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 700px; }
+              .xxl-xl-lg header > nav > ul > li > .nav8 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav8 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav8 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav9 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -750px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav9 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 240px; }
+              .xxl-xl-lg header > nav > ul > li > .nav9 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav9 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav9 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 500px; }
+              .xxl-xl-lg header > nav > ul > li > .nav9 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav9 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav9 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 700px; }
+              .xxl-xl-lg header > nav > ul > li > .nav9 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav9 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav9 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav10 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -850px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav10 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 230px; }
+              .xxl-xl-lg header > nav > ul > li > .nav10 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav10 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav10 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 500px; }
+              .xxl-xl-lg header > nav > ul > li > .nav10 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav10 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav10 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 700px; }
+              .xxl-xl-lg header > nav > ul > li > .nav10 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav10 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav10 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav11 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -950px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav11 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 240px; }
+              .xxl-xl-lg header > nav > ul > li > .nav11 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav11 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav11 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 450px; }
+              .xxl-xl-lg header > nav > ul > li > .nav11 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav11 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav11 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 600px; }
+              .xxl-xl-lg header > nav > ul > li > .nav11 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav11 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav11 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > a {
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            height: inherit;
+            padding: 0 20;
+            justify-content: space-between;
+            align-content: center;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: fantasy, Geneva, Tahoma, sans-serif;
+            cursor: pointer;
+            color: var(--bgca); } }
+
+@media all and (min-width: 1200px) and (max-width: 1329px) {
+  .xxl-xl-lg header {
+    width: 100%;
+    height: 60px;
+    background-color: var(--bgcmenu1);
+    position: fixed;
+    z-index: 2;
+    top: 0; }
+    .xxl-xl-lg header > nav {
+      width: inherit;
+      height: inherit; }
+      .xxl-xl-lg header > nav > ul {
+        width: 80%;
+        height: inherit;
+        background-color: var(--bgcmenu);
+        margin: 0 auto;
+        list-style: none;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        gap: 20px; }
+        .xxl-xl-lg header > nav > ul > span {
+          margin-top: 20px; }
+        .xxl-xl-lg header > nav > ul > li {
+          width: auto;
+          height: inherit; }
+          .xxl-xl-lg header > nav > ul > li > .nav1 {
+            width: 5000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -280px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav1 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 230px; }
+              .xxl-xl-lg header > nav > ul > li > .nav1 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav1 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav1 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 430px; }
+              .xxl-xl-lg header > nav > ul > li > .nav1 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav1 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav1 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 570px; }
+              .xxl-xl-lg header > nav > ul > li > .nav1 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav1 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav1 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav2 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -380px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav2 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 280px; }
+              .xxl-xl-lg header > nav > ul > li > .nav2 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav2 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav2 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 470px; }
+              .xxl-xl-lg header > nav > ul > li > .nav2 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav2 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav2 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 600px; }
+              .xxl-xl-lg header > nav > ul > li > .nav2 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav2 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav2 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav3 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -380px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav3 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 240px; }
+              .xxl-xl-lg header > nav > ul > li > .nav3 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav3 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav3 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 450px; }
+              .xxl-xl-lg header > nav > ul > li > .nav3 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav3 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav3 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 580px; }
+              .xxl-xl-lg header > nav > ul > li > .nav3 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav3 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav3 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav4 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -480px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav4 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 300px; }
+              .xxl-xl-lg header > nav > ul > li > .nav4 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav4 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav4 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 500px; }
+              .xxl-xl-lg header > nav > ul > li > .nav4 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav4 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav4 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 650px; }
+              .xxl-xl-lg header > nav > ul > li > .nav4 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav4 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav4 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav5 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -480px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav5 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 230px; }
+              .xxl-xl-lg header > nav > ul > li > .nav5 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav5 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav5 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 480px; }
+              .xxl-xl-lg header > nav > ul > li > .nav5 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav5 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav5 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 650px; }
+              .xxl-xl-lg header > nav > ul > li > .nav5 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav5 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav5 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav7 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -600px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav7 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 250px; }
+              .xxl-xl-lg header > nav > ul > li > .nav7 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav7 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav7 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 480px; }
+              .xxl-xl-lg header > nav > ul > li > .nav7 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav7 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav7 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 650px; }
+              .xxl-xl-lg header > nav > ul > li > .nav7 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav7 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav7 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav8 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -700px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav8 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 280px; }
+              .xxl-xl-lg header > nav > ul > li > .nav8 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav8 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav8 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 500px; }
+              .xxl-xl-lg header > nav > ul > li > .nav8 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav8 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav8 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 700px; }
+              .xxl-xl-lg header > nav > ul > li > .nav8 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav8 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav8 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav9 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -750px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav9 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 240px; }
+              .xxl-xl-lg header > nav > ul > li > .nav9 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav9 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav9 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 500px; }
+              .xxl-xl-lg header > nav > ul > li > .nav9 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav9 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav9 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 700px; }
+              .xxl-xl-lg header > nav > ul > li > .nav9 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav9 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav9 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav10 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -850px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav10 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 230px; }
+              .xxl-xl-lg header > nav > ul > li > .nav10 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav10 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav10 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 500px; }
+              .xxl-xl-lg header > nav > ul > li > .nav10 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav10 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav10 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 700px; }
+              .xxl-xl-lg header > nav > ul > li > .nav10 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav10 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav10 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav11 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -950px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav11 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 240px; }
+              .xxl-xl-lg header > nav > ul > li > .nav11 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav11 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav11 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 450px; }
+              .xxl-xl-lg header > nav > ul > li > .nav11 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav11 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav11 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 600px; }
+              .xxl-xl-lg header > nav > ul > li > .nav11 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav11 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav11 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > a {
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            height: inherit;
+            padding: 0 20;
+            justify-content: space-between;
+            align-content: center;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: fantasy, Geneva, Tahoma, sans-serif;
+            cursor: pointer;
+            color: var(--bgca); }
+      .xxl-xl-lg header > nav > .menu-box {
+        width: 1200px;
+        height: 400px;
+        margin-top: 0 auto;
+        background-color: var(--bgcmenu1);
+        display: none; }
+      .xxl-xl-lg header > nav:hover > div {
+        display: inline-flex; } }
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .xxl-xl-lg header {
+    width: 100%;
+    height: 60px;
+    background-color: var(--bgcmenu1);
+    position: fixed;
+    z-index: 2;
+    top: 0; }
+    .xxl-xl-lg header > nav {
+      width: 100%;
+      height: inherit; }
+      .xxl-xl-lg header > nav > ul {
+        width: 90%;
+        height: inherit;
+        background-color: var(--bgcmenu);
+        margin: 0 auto;
+        list-style: none;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        gap: 10px; }
+        .xxl-xl-lg header > nav > ul > span {
+          margin-top: 20px; }
+        .xxl-xl-lg header > nav > ul > li {
+          width: 90%;
+          height: inherit;
+          font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          .xxl-xl-lg header > nav > ul > li > .nav1 {
+            width: 5000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -280px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav1 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 260px; }
+              .xxl-xl-lg header > nav > ul > li > .nav1 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav1 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav1 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 430px; }
+              .xxl-xl-lg header > nav > ul > li > .nav1 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav1 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav1 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 570px; }
+              .xxl-xl-lg header > nav > ul > li > .nav1 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav1 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav1 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav2 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -380px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav2 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 280px; }
+              .xxl-xl-lg header > nav > ul > li > .nav2 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav2 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav2 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 470px; }
+              .xxl-xl-lg header > nav > ul > li > .nav2 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav2 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav2 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 600px; }
+              .xxl-xl-lg header > nav > ul > li > .nav2 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav2 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav2 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav3 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -380px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav3 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 210px; }
+              .xxl-xl-lg header > nav > ul > li > .nav3 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav3 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav3 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 450px; }
+              .xxl-xl-lg header > nav > ul > li > .nav3 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav3 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav3 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 580px; }
+              .xxl-xl-lg header > nav > ul > li > .nav3 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav3 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav3 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav4 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -480px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav4 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 240px; }
+              .xxl-xl-lg header > nav > ul > li > .nav4 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav4 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav4 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 460px; }
+              .xxl-xl-lg header > nav > ul > li > .nav4 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav4 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav4 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 600px; }
+              .xxl-xl-lg header > nav > ul > li > .nav4 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav4 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav4 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav5 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -480px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav5 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 170px; }
+              .xxl-xl-lg header > nav > ul > li > .nav5 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav5 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav5 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 450px; }
+              .xxl-xl-lg header > nav > ul > li > .nav5 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav5 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav5 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 630px; }
+              .xxl-xl-lg header > nav > ul > li > .nav5 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav5 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav5 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav7 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -600px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav7 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 150px; }
+              .xxl-xl-lg header > nav > ul > li > .nav7 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav7 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav7 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 390px; }
+              .xxl-xl-lg header > nav > ul > li > .nav7 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav7 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav7 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 550px; }
+              .xxl-xl-lg header > nav > ul > li > .nav7 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav7 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav7 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav8 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -700px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav8 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 180px; }
+              .xxl-xl-lg header > nav > ul > li > .nav8 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav8 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav8 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 480px; }
+              .xxl-xl-lg header > nav > ul > li > .nav8 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav8 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav8 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 650px; }
+              .xxl-xl-lg header > nav > ul > li > .nav8 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav8 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav8 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav9 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -750px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav9 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 170px; }
+              .xxl-xl-lg header > nav > ul > li > .nav9 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav9 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav9 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 400px; }
+              .xxl-xl-lg header > nav > ul > li > .nav9 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav9 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav9 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 700px; }
+              .xxl-xl-lg header > nav > ul > li > .nav9 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav9 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav9 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav10 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -850px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav10 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 170px; }
+              .xxl-xl-lg header > nav > ul > li > .nav10 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav10 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav10 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 400px; }
+              .xxl-xl-lg header > nav > ul > li > .nav10 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav10 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav10 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 700px; }
+              .xxl-xl-lg header > nav > ul > li > .nav10 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav10 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav10 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > .nav11 {
+            width: 6000%;
+            height: 400px;
+            margin-top: 0 auto;
+            margin-left: -950px;
+            background-color: var(--bgcmenu1);
+            display: none; }
+            .xxl-xl-lg header > nav > ul > li > .nav11 > .firstone {
+              width: 200px;
+              height: 400px;
+              position: absolute;
+              margin-left: 190px; }
+              .xxl-xl-lg header > nav > ul > li > .nav11 > .firstone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav11 > .firstone > h6 > li {
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav11 > .secondone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 400px; }
+              .xxl-xl-lg header > nav > ul > li > .nav11 > .secondone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px;
+                font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                .xxl-xl-lg header > nav > ul > li > .nav11 > .secondone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            .xxl-xl-lg header > nav > ul > li > .nav11 > .thirdone {
+              width: 200px;
+              height: 350px;
+              position: absolute;
+              margin-left: 550px; }
+              .xxl-xl-lg header > nav > ul > li > .nav11 > .thirdone > h6 {
+                font-size: small;
+                color: var(--bgcb);
+                margin-top: 20px; }
+                .xxl-xl-lg header > nav > ul > li > .nav11 > .thirdone > h6 > li {
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--bgca);
+                  margin-top: 10px; }
+          .xxl-xl-lg header > nav > ul > li:hover > div.nav11 {
+            display: inline-block; }
+          .xxl-xl-lg header > nav > ul > li > a {
+            display: flex;
+            flex-flow: row wrap;
+            width: 50%;
+            height: inherit;
+            padding: 0 20;
+            justify-content: space-between;
+            align-content: center;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: fantasy, Geneva, Tahoma, sans-serif;
+            cursor: pointer;
+            color: var(--bgca); }
+      .xxl-xl-lg header > nav > .menu-box {
+        width: 992px;
+        height: 400px;
+        margin-top: 0 auto;
+        background-color: var(--bgcmenu1);
+        display: none; }
+      .xxl-xl-lg header > nav:hover > div {
+        display: inline-flex; } }
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .xxl-xl-lg {
+    display: none; }
+  .md-sm-xs {
+    width: 100%;
+    height: 40px;
+    background-color: var(--bgcmenu1);
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    cursor: pointer; }
+    .md-sm-xs > .first {
+      position: relative;
+      margin-left: 20px;
+      margin-top: 10px; }
+    .md-sm-xs > .second {
+      position: absolute;
       display: flex;
       flex-flow: row wrap;
-      justify-content: center;
-      gap: 10px; }
-      header > nav > ul > span {
-        margin-top: 8px;
-        margin-right: 10px;
-        cursor: pointer; }
-      header > nav > ul > li {
-        width: auto;
+      margin-left: 600px;
+      margin-top: -25px; }
+      .md-sm-xs > .second > span {
+        margin-left: 20px; }
+    .md-sm-xs > .menu-BOX-little {
+      width: 768px;
+      height: 400px;
+      margin-top: 0 auto;
+      background-color: var(--bgcmenu1);
+      display: none; }
+    .md-sm-xs:hover > div {
+      display: inline-flex; } }
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .xxl-xl-lg {
+    display: none; }
+  .md-sm-xs {
+    width: 100%;
+    height: 40px;
+    background-color: var(--bgcmenu1);
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    cursor: pointer; }
+    .md-sm-xs > .first {
+      position: relative;
+      margin-left: 20px;
+      margin-top: 10px; }
+    .md-sm-xs > .second {
+      position: absolute;
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: 420px;
+      margin-top: -25px; }
+      .md-sm-xs > .second > span {
+        margin-left: 20px; }
+    .md-sm-xs > .menu-BOX-little {
+      width: 576px;
+      height: 400px;
+      margin-top: 0 auto;
+      background-color: var(--bgcmenu1);
+      display: none; }
+    .md-sm-xs:hover > div {
+      display: inline-flex; } }
+
+@media all and (min-width: 360px) and (max-width: 575px) {
+  .xxl-xl-lg {
+    display: none; }
+  .md-sm-xs {
+    width: 100%;
+    height: 40px;
+    background-color: var(--bgcmenu1);
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    cursor: pointer; }
+    .md-sm-xs > .first {
+      position: relative;
+      margin-left: 20px;
+      margin-top: 10px; }
+    .md-sm-xs > .second {
+      position: absolute;
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: 210px;
+      margin-top: -25px; }
+      .md-sm-xs > .second > span {
+        margin-left: 20px; }
+    .md-sm-xs > .menu-BOX-little {
+      width: 360px;
+      height: 400px;
+      margin-top: 0 auto;
+      background-color: var(--bgcmenu1);
+      display: none; }
+    .md-sm-xs:hover > div {
+      display: inline-flex; } }
+
+@media all and (min-width: 1330px) {
+  main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px; }
+    main > section.first {
+      width: 100%;
+      height: 580px;
+      position: relative; }
+      main > section.first > div.box {
+        width: 100%;
         height: inherit; }
-        header > nav > ul > li > div.nav1 {
-          width: 1575%;
-          height: 400px;
-          position: relative;
-          background-color: var(--bgcmenu1);
-          display: none; }
-          header > nav > ul > li > div.nav1 > .firstone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            text-align: left; }
-            header > nav > ul > li > div.nav1 > .firstone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav1 > .firstone > h6 > li {
-                font-size: 20px;
-                font-weight: bolder;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav1 > .secondone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 250px;
-            text-align: left; }
-            header > nav > ul > li > div.nav1 > .secondone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav1 > .secondone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav1 > .thirdone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 500px;
-            text-align: left; }
-            header > nav > ul > li > div.nav1 > .thirdone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px; }
-              header > nav > ul > li > div.nav1 > .thirdone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px; }
-        header > nav > ul > li:hover > div.nav1 {
-          display: inline-block; }
-        header > nav > ul > li > div.nav2 {
-          width: 1867%;
-          margin-left: -60px;
-          height: 400px;
-          background-color: var(--bgcmenu1);
-          display: none; }
-          header > nav > ul > li > div.nav2 > .firstone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            text-align: left; }
-            header > nav > ul > li > div.nav2 > .firstone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav2 > .firstone > h6 > li {
-                font-size: 20px;
-                font-weight: bolder;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav2 > .secondone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 250px;
-            text-align: left; }
-            header > nav > ul > li > div.nav2 > .secondone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav2 > .secondone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav2 > .thirdone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 500px;
-            text-align: left; }
-            header > nav > ul > li > div.nav2 > .thirdone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px; }
-              header > nav > ul > li > div.nav2 > .thirdone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px; }
-        header > nav > ul > li:hover > div.nav2 {
-          display: inline-block; }
-        header > nav > ul > li > div.nav3 {
-          width: 1825%;
-          margin-left: -113px;
-          height: 400px;
-          background-color: var(--bgcmenu1);
-          display: none; }
-          header > nav > ul > li > div.nav3 > .firstone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap; }
-            header > nav > ul > li > div.nav3 > .firstone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav3 > .firstone > h6 > li {
-                font-size: 20px;
-                font-weight: bolder;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav3 > .secondone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 250px; }
-            header > nav > ul > li > div.nav3 > .secondone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav3 > .secondone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav3 > .thirdone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 500px; }
-            header > nav > ul > li > div.nav3 > .thirdone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px; }
-              header > nav > ul > li > div.nav3 > .thirdone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px; }
-        header > nav > ul > li:hover > div.nav3 {
-          display: inline-block; }
-        header > nav > ul > li > div.nav4 {
-          width: 1385%;
-          margin-left: -167px;
-          height: 400px;
-          background-color: var(--bgcmenu1);
-          display: none; }
-          header > nav > ul > li > div.nav4 > .firstone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap; }
-            header > nav > ul > li > div.nav4 > .firstone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav4 > .firstone > h6 > li {
-                font-size: 20px;
-                font-weight: bolder;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav4 > .secondone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 250px; }
-            header > nav > ul > li > div.nav4 > .secondone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav4 > .secondone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav4 > .thirdone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 500px; }
-            header > nav > ul > li > div.nav4 > .thirdone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px; }
-              header > nav > ul > li > div.nav4 > .thirdone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px; }
-        header > nav > ul > li:hover > div.nav4 {
-          display: inline-block; }
-        header > nav > ul > li > div.nav5 {
-          width: 1433%;
-          margin-left: -235px;
-          height: 400px;
-          background-color: var(--bgcmenu1);
-          display: none; }
-          header > nav > ul > li > div.nav5 > .firstone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap; }
-            header > nav > ul > li > div.nav5 > .firstone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav5 > .firstone > h6 > li {
-                font-size: 18px;
-                font-weight: bolder;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav5 > .secondone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 250px; }
-            header > nav > ul > li > div.nav5 > .secondone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav5 > .secondone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav5 > .thirdone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 500px; }
-            header > nav > ul > li > div.nav5 > .thirdone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px; }
-              header > nav > ul > li > div.nav5 > .thirdone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px; }
-        header > nav > ul > li:hover > div.nav5 {
-          display: inline-block; }
-        header > nav > ul > li:hover > div.nav6 {
-          display: inline-block; }
-        header > nav > ul > li > div.nav7 {
-          width: 1273%;
-          margin-left: -365px;
-          height: 400px;
-          background-color: var(--bgcmenu1);
-          display: none; }
-          header > nav > ul > li > div.nav7 > .firstone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap; }
-            header > nav > ul > li > div.nav7 > .firstone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav7 > .firstone > h6 > li {
-                font-size: 18px;
-                font-weight: bolder;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav7 > .secondone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 250px; }
-            header > nav > ul > li > div.nav7 > .secondone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav7 > .secondone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav7 > .thirdone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 500px; }
-            header > nav > ul > li > div.nav7 > .thirdone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px; }
-              header > nav > ul > li > div.nav7 > .thirdone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px; }
-        header > nav > ul > li:hover > div.nav7 {
-          display: inline-block; }
-        header > nav > ul > li > div.nav8 {
-          width: 933%;
-          margin-left: -438px;
-          height: 400px;
-          background-color: var(--bgcmenu1);
-          display: none; }
-          header > nav > ul > li > div.nav8 > .firstone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap; }
-            header > nav > ul > li > div.nav8 > .firstone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav8 > .firstone > h6 > li {
-                font-size: 18px;
-                font-weight: bolder;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav8 > .secondone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 250px; }
-            header > nav > ul > li > div.nav8 > .secondone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav8 > .secondone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav8 > .thirdone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 500px; }
-            header > nav > ul > li > div.nav8 > .thirdone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav8 > .thirdone > h6 > li {
-                font-size: 12px;
-                font-weight: bolder;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-        header > nav > ul > li:hover > div.nav8 {
-          display: inline-block; }
-        header > nav > ul > li > div.nav9 {
-          width: 802%;
-          margin-left: -534px;
-          height: 400px;
-          background-color: var(--bgcmenu1);
-          display: none; }
-          header > nav > ul > li > div.nav9 > .firstone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap; }
-            header > nav > ul > li > div.nav9 > .firstone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav9 > .firstone > h6 > li {
-                font-size: 18px;
-                font-weight: bolder;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav9 > .secondone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 250px; }
-            header > nav > ul > li > div.nav9 > .secondone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav9 > .secondone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-        header > nav > ul > li:hover > div.nav9 {
-          display: inline-block; }
-        header > nav > ul > li > div.nav10 {
-          width: 922%;
-          margin-left: -644px;
-          height: 400px;
-          background-color: var(--bgcmenu1);
-          display: none; }
-          header > nav > ul > li > div.nav10 > .firstone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap; }
-            header > nav > ul > li > div.nav10 > .firstone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav10 > .firstone > h6 > li {
-                font-size: 18px;
-                font-weight: bolder;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav10 > .secondone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 250px; }
-            header > nav > ul > li > div.nav10 > .secondone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav10 > .secondone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-        header > nav > ul > li:hover > div.nav10 {
-          display: inline-block; }
-        header > nav > ul > li > div.nav11 {
-          width: 1240%;
-          margin-left: -741px;
-          height: 400px;
-          background-color: var(--bgcmenu1);
-          display: none; }
-          header > nav > ul > li > div.nav11 > .firstone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap; }
-            header > nav > ul > li > div.nav11 > .firstone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav11 > .firstone > h6 > li {
-                font-size: 18px;
-                font-weight: bolder;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav11 > .secondone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 250px; }
-            header > nav > ul > li > div.nav11 > .secondone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav11 > .secondone > h6 > li {
-                font-size: 12px;
-                font-weight: bold;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          header > nav > ul > li > div.nav11 > .thirdone {
-            width: 200px;
-            height: 350px;
-            position: absolute;
-            display: flex;
-            flex-flow: row nowrap;
-            margin-left: 500px; }
-            header > nav > ul > li > div.nav11 > .thirdone > h6 {
-              font-size: small;
-              color: var(--bgcb);
-              margin-top: 20px;
-              font-family: fantasy, Geneva, Tahoma, sans-serif; }
-              header > nav > ul > li > div.nav11 > .thirdone > h6 > li {
-                font-size: 12px;
-                font-weight: bolder;
-                color: var(--bgca);
-                margin-top: 10px;
-                font-family: fantasy, Geneva, Tahoma, sans-serif; }
-        header > nav > ul > li:hover > div.nav11 {
-          display: inline-block; }
-        header > nav > ul > li > a {
+        main > section.first > div.box > a {
           display: flex;
-          flex-flow: row wrap;
           width: 100%;
           height: inherit;
-          padding: 0 10px;
-          justify-content: center;
-          align-content: center;
           text-decoration: none;
-          color: var(--bgca);
-          font-family: fantasy, Geneva, Tahoma, sans-serif;
-          font-size: small; }
-          header > nav > ul > li > a:hover {
-            background-color: #333333;
-            cursor: pointer; }
+          color: #2997ff; }
+          main > section.first > div.box > a:hover {
+            text-decoration: underline; }
+          main > section.first > div.box > a > img {
+            width: 100%;
+            height: inherit;
+            object-fit: cover;
+            object-position: center; }
+      main > section.first > div.title {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 47px;
+        display: flex;
+        flex-flow: column wrap;
+        gap: 10px;
+        align-items: center;
+        align-content: center; }
+        main > section.first > div.title > h2 {
+          font-size: 50px;
+          font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        main > section.first > div.title > h3 {
+          font-size: 25px;
+          font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        main > section.first > div.title > div {
+          display: flex;
+          flex-flow: row nowrap;
+          gap: 10px; }
+        main > section.first > div.title > a {
+          padding: 0 20px;
+          font-size: 20px;
+          text-decoration: none;
+          color: #2997ff; }
+          main > section.first > div.title > a:hover {
+            text-decoration: underline; }
+    main > section.second {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 10px; }
+      main > section.second > div {
+        width: 50%;
+        height: 580px;
+        position: relative; }
+        main > section.second > div > div.box {
+          width: 100%;
+          height: inherit; }
+          main > section.second > div > div.box > a {
+            display: flex;
+            width: 100%;
+            height: inherit;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.second > div > div.box > a:hover {
+              text-decoration: underline; }
+            main > section.second > div > div.box > a > img {
+              width: 100%;
+              height: inherit;
+              object-fit: cover;
+              object-position: center; }
+        main > section.second > div > div.title {
+          position: absolute;
+          width: 100%;
+          height: auto;
+          top: 47px;
+          display: flex;
+          flex-flow: column wrap;
+          gap: 10px;
+          align-items: center;
+          align-content: center; }
+          main > section.second > div > div.title > h2 {
+            font-size: 50px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.second > div > div.title > h3 {
+            font-size: 25px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.second > div > div.title > div {
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 10px; }
+          main > section.second > div > div.title > a {
+            padding: 0 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.second > div > div.title > a:hover {
+              text-decoration: underline; } }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1200px) and (max-width: 1329px) {
   main {
     width: 100%;
     height: auto;
@@ -1132,7 +2514,7 @@ header {
             main > section.second > div > div.title > a:hover {
               text-decoration: underline; } }
 
-@media all and (min-width: 300px) and (max-width: 575px) {
+@media all and (min-width: 360px) and (max-width: 575px) {
   main {
     width: 100%;
     height: auto;
@@ -1246,136 +2628,797 @@ header {
   --bgc2: black;
   --bgc3: #252525; }
 
-footer.footer {
-  width: 100%;
-  height: 850px;
-  background-color: var(--bgcg0);
-  list-style: none; }
-  footer.footer > li {
-    width: 80%;
-    height: 30px;
-    font-size: smaller;
-    font-family: fantasy, Geneva, Tahoma, sans-serif;
-    display: flex;
-    flex-flow: row wrap;
-    margin-left: 150px;
-    color: var(--bgcg1); }
-  footer.footer div.fot1 {
-    font-size: smaller;
-    font-family: fantasy, Geneva, Tahoma, sans-serif;
-    margin-left: 150px;
-    box-sizing: content-box;
-    margin-top: 20px; }
-    footer.footer div.fot1 > ul {
-      color: var(--bgcg2);
-      font-size: 12px;
-      font-weight: bolder; }
-    footer.footer div.fot1 > li {
-      color: var(--bgcg1);
-      font-size: small;
-      padding: 2px;
-      text-decoration: none; }
-  footer.footer div.foot2 {
-    font-size: smaller;
-    font-family: fantasy, Geneva, Tahoma, sans-serif;
-    margin-left: 350px;
-    box-sizing: content-box;
-    margin-top: -345px; }
-    footer.footer div.foot2 > ul {
-      color: var(--bgcg2);
-      font-size: 12px;
-      font-weight: bolder; }
-    footer.footer div.foot2 > li {
-      color: var(--bgcg1);
-      font-size: small;
-      padding: 2px;
-      text-decoration: none; }
-  footer.footer div.foot3 {
-    font-size: smaller;
-    font-family: fantasy, Geneva, Tahoma, sans-serif;
-    margin-left: 600px;
-    box-sizing: content-box;
-    margin-top: -290px; }
-    footer.footer div.foot3 > ul {
-      color: var(--bgcg2);
-      font-size: 12px;
-      font-weight: bolder; }
-    footer.footer div.foot3 > li {
-      color: var(--bgcg1);
-      font-size: small;
-      padding: 2px;
-      text-decoration: none; }
-  footer.footer > div.foot4 {
-    font-size: smaller;
-    font-family: fantasy, Geneva, Tahoma, sans-serif;
-    margin-left: 840px;
-    box-sizing: content-box;
-    margin-top: -235px; }
-    footer.footer > div.foot4 > ul {
-      color: var(--bgcg2);
-      font-size: 12px;
-      font-weight: bolder; }
-    footer.footer > div.foot4 > li {
-      color: var(--bgcg1);
-      font-size: small;
-      padding: 2px;
-      text-decoration: none; }
-  footer.footer div.foot5 {
-    font-size: smaller;
-    font-family: fantasy, Geneva, Tahoma, sans-serif;
-    margin-left: 1120px;
-    box-sizing: content-box;
-    margin-top: -305px; }
-    footer.footer div.foot5 > ul {
-      color: var(--bgcg2);
-      font-size: 12px;
-      font-weight: bolder; }
-    footer.footer div.foot5 > li {
-      color: var(--bgcg1);
-      font-size: small;
-      padding: 2px;
-      text-decoration: none; }
-  footer.footer section.A {
-    width: 70%;
-    margin-left: 140px;
-    border-bottom: 1px solid #777777; }
-    footer.footer section.A > h4 {
+@media all and (min-width: 1330px) {
+  footer.footer {
+    width: 100%;
+    height: 850px;
+    background-color: var(--bgcg0);
+    list-style: none; }
+    footer.footer > li {
+      width: 80%;
+      height: 30px;
       font-size: smaller;
-      font-weight: lighter;
       font-family: fantasy, Geneva, Tahoma, sans-serif;
-      color: #5a5a5a;
-      margin-top: 40px; }
-  footer.footer section.B {
-    margin-top: -30px;
-    margin-left: 140px; }
-    footer.footer section.B > h5 {
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: 150px;
+      color: var(--bgcg1); }
+    footer.footer div.fot1 {
       font-size: smaller;
-      font-weight: lighter;
       font-family: fantasy, Geneva, Tahoma, sans-serif;
-      color: #5a5a5a;
-      margin-top: 40px; }
-  footer.footer section.C {
-    box-sizing: content-box; }
-    footer.footer section.C > ul {
+      margin-left: 150px;
+      box-sizing: content-box;
+      margin-top: 20px; }
+      footer.footer div.fot1 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.fot1 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot2 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 350px;
+      box-sizing: content-box;
+      margin-top: -345px; }
+      footer.footer div.foot2 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot2 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot3 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 600px;
+      box-sizing: content-box;
+      margin-top: -290px; }
+      footer.footer div.foot3 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot3 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer > div.foot4 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 840px;
+      box-sizing: content-box;
+      margin-top: -235px; }
+      footer.footer > div.foot4 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer > div.foot4 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot5 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 1120px;
+      box-sizing: content-box;
+      margin-top: -305px; }
+      footer.footer div.foot5 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot5 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer section.A {
+      width: 70%;
+      margin-left: 140px;
+      border-bottom: 1px solid #777777; }
+      footer.footer section.A > h4 {
+        font-size: smaller;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        margin-top: 40px; }
+    footer.footer section.B {
+      margin-top: -30px;
+      margin-left: 140px; }
+      footer.footer section.B > h5 {
+        font-size: smaller;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        margin-top: 40px; }
+    footer.footer section.C {
+      box-sizing: content-box; }
+      footer.footer section.C > ul {
+        display: flex;
+        flex-flow: row wrap;
+        list-style: none;
+        margin-left: 450px;
+        font-size: small;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: var(--bgc3);
+        margin-top: -15px; }
+    footer.footer section.D {
       display: flex;
       flex-flow: row wrap;
       list-style: none;
-      margin-left: 450px;
+      margin-left: 1000px;
       font-size: small;
       font-weight: lighter;
       font-family: fantasy, Geneva, Tahoma, sans-serif;
       color: var(--bgc3);
-      margin-top: -15px; }
-  footer.footer section.D {
-    display: flex;
-    flex-flow: row wrap;
-    list-style: none;
-    margin-left: 1000px;
-    font-size: small;
-    font-weight: lighter;
-    font-family: fantasy, Geneva, Tahoma, sans-serif;
-    color: var(--bgc3);
-    margin-top: -15px; }
+      margin-top: -15px; } }
+
+@media all and (min-width: 1200px) and (max-width: 1329px) {
+  footer.footer {
+    width: 100%;
+    height: 1000px;
+    background-color: var(--bgcg0);
+    list-style: none; }
+    footer.footer > li {
+      width: 80%;
+      height: 50px;
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: 100px;
+      color: var(--bgcg1); }
+    footer.footer div.fot1 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 100px;
+      box-sizing: content-box;
+      margin-top: 20px; }
+      footer.footer div.fot1 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.fot1 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot2 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 280px;
+      box-sizing: content-box;
+      margin-top: -345px; }
+      footer.footer div.foot2 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot2 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot3 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 480px;
+      box-sizing: content-box;
+      margin-top: -290px; }
+      footer.footer div.foot3 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot3 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer > div.foot4 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 680px;
+      box-sizing: content-box;
+      margin-top: -235px; }
+      footer.footer > div.foot4 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer > div.foot4 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot5 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 900px;
+      box-sizing: content-box;
+      margin-top: -305px; }
+      footer.footer div.foot5 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot5 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer section.A {
+      width: 70%;
+      margin-left: 140px;
+      border-bottom: 1px solid #777777; }
+      footer.footer section.A > h4 {
+        font-size: smaller;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        margin-top: 50px; }
+    footer.footer section.B {
+      margin-top: -30px;
+      margin-left: 140px; }
+      footer.footer section.B > h5 {
+        font-size: smaller;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        margin-top: 40px; }
+    footer.footer section.C {
+      box-sizing: content-box; }
+      footer.footer section.C > ul {
+        display: flex;
+        flex-flow: row wrap;
+        list-style: none;
+        margin-left: 450px;
+        font-size: small;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: var(--bgc3);
+        margin-top: -15px; }
+    footer.footer section.D {
+      display: flex;
+      flex-flow: row wrap;
+      list-style: none;
+      margin-left: 900px;
+      font-size: small;
+      font-weight: lighter;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      color: var(--bgc3);
+      margin-top: -15px; } }
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  footer.footer {
+    width: 100%;
+    height: 1000px;
+    background-color: var(--bgcg0);
+    list-style: none; }
+    footer.footer > li {
+      width: 80%;
+      height: 50px;
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: 80px;
+      color: var(--bgcg1); }
+    footer.footer div.fot1 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 80px;
+      box-sizing: content-box;
+      margin-top: 20px; }
+      footer.footer div.fot1 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.fot1 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot2 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 260px;
+      box-sizing: content-box;
+      margin-top: -345px; }
+      footer.footer div.foot2 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot2 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot3 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 460px;
+      box-sizing: content-box;
+      margin-top: -290px; }
+      footer.footer div.foot3 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot3 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer > div.foot4 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 640px;
+      box-sizing: content-box;
+      margin-top: -235px; }
+      footer.footer > div.foot4 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer > div.foot4 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot5 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 840px;
+      box-sizing: content-box;
+      margin-top: -305px; }
+      footer.footer div.foot5 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot5 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer section.A {
+      width: 70%;
+      margin-left: 140px;
+      border-bottom: 1px solid #777777; }
+      footer.footer section.A > h4 {
+        font-size: smaller;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        margin-top: 60px; }
+    footer.footer section.B {
+      margin-top: -30px;
+      margin-left: 140px; }
+      footer.footer section.B > h5 {
+        font-size: smaller;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        margin-top: 40px; }
+    footer.footer section.C {
+      box-sizing: content-box; }
+      footer.footer section.C > ul {
+        display: flex;
+        flex-flow: row wrap;
+        list-style: none;
+        margin-left: 450px;
+        font-size: small;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: var(--bgc3);
+        margin-top: -15px; }
+    footer.footer section.D {
+      display: flex;
+      flex-flow: row wrap;
+      list-style: none;
+      margin-left: 1000px;
+      font-size: small;
+      font-weight: lighter;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      color: var(--bgc3);
+      margin-top: -15px; } }
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  footer.footer {
+    width: 100%;
+    height: 850px;
+    background-color: var(--bgcg0);
+    list-style: none; }
+    footer.footer > li {
+      width: 80%;
+      height: 30px;
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: 150px;
+      color: var(--bgcg1); }
+    footer.footer div.fot1 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 150px;
+      box-sizing: content-box;
+      margin-top: 20px; }
+      footer.footer div.fot1 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.fot1 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot2 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 350px;
+      box-sizing: content-box;
+      margin-top: -345px; }
+      footer.footer div.foot2 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot2 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot3 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 600px;
+      box-sizing: content-box;
+      margin-top: -290px; }
+      footer.footer div.foot3 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot3 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer > div.foot4 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 840px;
+      box-sizing: content-box;
+      margin-top: -235px; }
+      footer.footer > div.foot4 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer > div.foot4 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot5 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 1120px;
+      box-sizing: content-box;
+      margin-top: -305px; }
+      footer.footer div.foot5 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot5 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer section.A {
+      width: 70%;
+      margin-left: 140px;
+      border-bottom: 1px solid #777777; }
+      footer.footer section.A > h4 {
+        font-size: smaller;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        margin-top: 40px; }
+    footer.footer section.B {
+      margin-top: -30px;
+      margin-left: 140px; }
+      footer.footer section.B > h5 {
+        font-size: smaller;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        margin-top: 40px; }
+    footer.footer section.C {
+      box-sizing: content-box; }
+      footer.footer section.C > ul {
+        display: flex;
+        flex-flow: row wrap;
+        list-style: none;
+        margin-left: 450px;
+        font-size: small;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: var(--bgc3);
+        margin-top: -15px; }
+    footer.footer section.D {
+      display: flex;
+      flex-flow: row wrap;
+      list-style: none;
+      margin-left: 1000px;
+      font-size: small;
+      font-weight: lighter;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      color: var(--bgc3);
+      margin-top: -15px; } }
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+  footer.footer {
+    width: 100%;
+    height: 850px;
+    background-color: var(--bgcg0);
+    list-style: none; }
+    footer.footer > li {
+      width: 80%;
+      height: 30px;
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: 150px;
+      color: var(--bgcg1); }
+    footer.footer div.fot1 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 150px;
+      box-sizing: content-box;
+      margin-top: 20px; }
+      footer.footer div.fot1 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.fot1 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot2 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 350px;
+      box-sizing: content-box;
+      margin-top: -345px; }
+      footer.footer div.foot2 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot2 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot3 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 600px;
+      box-sizing: content-box;
+      margin-top: -290px; }
+      footer.footer div.foot3 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot3 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer > div.foot4 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 840px;
+      box-sizing: content-box;
+      margin-top: -235px; }
+      footer.footer > div.foot4 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer > div.foot4 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot5 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 1120px;
+      box-sizing: content-box;
+      margin-top: -305px; }
+      footer.footer div.foot5 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot5 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer section.A {
+      width: 70%;
+      margin-left: 140px;
+      border-bottom: 1px solid #777777; }
+      footer.footer section.A > h4 {
+        font-size: smaller;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        margin-top: 40px; }
+    footer.footer section.B {
+      margin-top: -30px;
+      margin-left: 140px; }
+      footer.footer section.B > h5 {
+        font-size: smaller;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        margin-top: 40px; }
+    footer.footer section.C {
+      box-sizing: content-box; }
+      footer.footer section.C > ul {
+        display: flex;
+        flex-flow: row wrap;
+        list-style: none;
+        margin-left: 450px;
+        font-size: small;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: var(--bgc3);
+        margin-top: -15px; }
+    footer.footer section.D {
+      display: flex;
+      flex-flow: row wrap;
+      list-style: none;
+      margin-left: 1000px;
+      font-size: small;
+      font-weight: lighter;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      color: var(--bgc3);
+      margin-top: -15px; } }
+
+@media all and (min-width: 360px) and (max-width: 575px) {
+  footer.footer {
+    width: 100%;
+    height: 850px;
+    background-color: var(--bgcg0);
+    list-style: none; }
+    footer.footer > li {
+      width: 80%;
+      height: 30px;
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: 150px;
+      color: var(--bgcg1); }
+    footer.footer div.fot1 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 150px;
+      box-sizing: content-box;
+      margin-top: 20px; }
+      footer.footer div.fot1 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.fot1 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot2 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 350px;
+      box-sizing: content-box;
+      margin-top: -345px; }
+      footer.footer div.foot2 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot2 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot3 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 600px;
+      box-sizing: content-box;
+      margin-top: -290px; }
+      footer.footer div.foot3 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot3 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer > div.foot4 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 840px;
+      box-sizing: content-box;
+      margin-top: -235px; }
+      footer.footer > div.foot4 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer > div.foot4 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer div.foot5 {
+      font-size: smaller;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      margin-left: 1120px;
+      box-sizing: content-box;
+      margin-top: -305px; }
+      footer.footer div.foot5 > ul {
+        color: var(--bgcg2);
+        font-size: 12px;
+        font-weight: bolder; }
+      footer.footer div.foot5 > li {
+        color: var(--bgcg1);
+        font-size: small;
+        padding: 2px;
+        text-decoration: none; }
+    footer.footer section.A {
+      width: 70%;
+      margin-left: 140px;
+      border-bottom: 1px solid #777777; }
+      footer.footer section.A > h4 {
+        font-size: smaller;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        margin-top: 40px; }
+    footer.footer section.B {
+      margin-top: -30px;
+      margin-left: 140px; }
+      footer.footer section.B > h5 {
+        font-size: smaller;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        margin-top: 40px; }
+    footer.footer section.C {
+      box-sizing: content-box; }
+      footer.footer section.C > ul {
+        display: flex;
+        flex-flow: row wrap;
+        list-style: none;
+        margin-left: 450px;
+        font-size: small;
+        font-weight: lighter;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: var(--bgc3);
+        margin-top: -15px; }
+    footer.footer section.D {
+      display: flex;
+      flex-flow: row wrap;
+      list-style: none;
+      margin-left: 1000px;
+      font-size: small;
+      font-weight: lighter;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      color: var(--bgc3);
+      margin-top: -15px; } }
 
 .swiper {
   width: 100%;

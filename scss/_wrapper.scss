@@ -1,3 +1,22 @@
+
+@include xxl {
+  main {
+    @include WH(100%, auto);
+    @include FlexC;
+    > section.first {
+      @include section(100%);
+    }
+    > section.second {
+      @include WH(100%, auto);
+      @include FlexR;
+      > div {
+        @include section(50%);
+      }
+    }
+  }
+}
+
+
 @include xl {
   main {
     @include WH(100%, auto);
