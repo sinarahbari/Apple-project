@@ -29,13 +29,7 @@
 }
 
 @mixin xs {
-  @media #{$mediaType} and (min-width: $xs) and (max-width:#{$sm - 1px}) {
-    @content;
-  }
-}
-
-@mixin xxs {
-  @media #{$mediaType} and (max-width: #{$xs- 1px}) {
+  @media #{$mediaType}  and (max-width:#{$sm - 1px}) {
     @content;
   }
 }

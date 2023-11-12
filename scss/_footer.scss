@@ -6,6 +6,9 @@
 }
 
 @include xxl {
+  div.footer-md-sm-xs {
+    display: none;
+  }
   footer.footer {
     width: 100%;
     height: 850px;
@@ -171,6 +174,10 @@
 }
 
 @include xl {
+  div.footer-md-sm-xs {
+    display: none;
+  }
+
   footer.footer {
     width: 100%;
     height: 1000px;
@@ -336,6 +343,10 @@
 }
 
 @include lg {
+  div.footer-md-sm-xs {
+    display: none;
+  }
+
   footer.footer {
     width: 100%;
     height: 1000px;
@@ -503,164 +514,71 @@
 @include md {
   footer.footer {
     width: 100%;
-    height: 850px;
+    height: 50%;
     background-color: var(--bgcg0);
     list-style: none;
+    display: none;
+  }
+}
 
+div.footer-md-sm-xs {
+  width: inherit;
+  height: inherit;
+  // background-color: var(--bgcg1);
+
+  > section.A {
+    width: inherit;
+    height: inherit;
+    // background-color: blue;
+    > h4 {
+      font-size: smaller;
+      font-weight: lighter;
+      font-family: fantasy, Geneva, Tahoma, sans-serif;
+      color: #5a5a5a;
+      margin-left: 20px;
+    }
+  }
+
+  section.D {
+    width: inherit;
+    height: inherit;
+    // background-color: violet;
     > li {
-      width: 80%;
-      height: 30px;
       font-size: smaller;
+      font-weight: 600;
       font-family: fantasy, Geneva, Tahoma, sans-serif;
-      display: flex;
-      flex-flow: row wrap;
-      margin-left: 150px;
-      color: var(--bgcg1);
+      color: #5a5a5a;
+      list-style: none;
+      margin-top: 10px;
+      margin-left: 20px;
     }
-    div.fot1 {
+  }
+
+  section.B {
+    margin-top: -10px;
+    margin-left: 20px;
+
+    > h5 {
       font-size: smaller;
+      font-weight: lighter;
       font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 150px;
-      box-sizing: content-box;
-      margin-top: 20px;
+      color: #5a5a5a;
+      margin-top: 30px;
+    }
+  }
 
-      > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none;
-      }
-    }
-    div.foot2 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 350px;
-      box-sizing: content-box;
-      margin-top: -345px;
-
-      > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none;
-      }
-    }
-    div.foot3 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 600px;
-      box-sizing: content-box;
-      margin-top: -290px;
-
-      > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none;
-      }
-    }
-    > div.foot4 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 840px;
-      box-sizing: content-box;
-      margin-top: -235px;
-
-      > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none;
-      }
-    }
-    div.foot5 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 1120px;
-      box-sizing: content-box;
-      margin-top: -305px;
-
-      > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none;
-      }
-    }
-    section.A {
-      width: 70%;
-      margin-left: 140px;
-      border-bottom: 1px solid rgb(119, 119, 119);
-
-      > h4 {
-        font-size: smaller;
-        font-weight: lighter;
-        font-family: fantasy, Geneva, Tahoma, sans-serif;
-        color: #5a5a5a;
-        margin-top: 40px;
-      }
-    }
-    section.B {
-      margin-top: -30px;
-      margin-left: 140px;
-
-      > h5 {
-        font-size: smaller;
-        font-weight: lighter;
-        font-family: fantasy, Geneva, Tahoma, sans-serif;
-        color: #5a5a5a;
-        margin-top: 40px;
-      }
-    }
-    section.C {
-      box-sizing: content-box;
-      > ul {
-        display: flex;
-        flex-flow: row wrap;
-        list-style: none;
-        margin-left: 450px;
-        font-size: small;
-        font-weight: lighter;
-        font-family: fantasy, Geneva, Tahoma, sans-serif;
-        color: var(--bgc3);
-        margin-top: -15px;
-      }
-    }
-    section.D {
+  section.C {
+    box-sizing: content-box;
+    > ul {
       display: flex;
       flex-flow: row wrap;
       list-style: none;
-      margin-left: 1000px;
+      margin-left: 20px;
       font-size: small;
       font-weight: lighter;
       font-family: fantasy, Geneva, Tahoma, sans-serif;
-      color: var(--bgc3);
-      margin-top: -15px;
+      color: var(--bgcg1);
+      margin-top: 10px;
     }
   }
 }
@@ -668,164 +586,71 @@
 @include sm {
   footer.footer {
     width: 100%;
-    height: 850px;
+    height: 50%;
     background-color: var(--bgcg0);
     list-style: none;
+    display: none;
+  }
 
-    > li {
-      width: 80%;
-      height: 30px;
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      display: flex;
-      flex-flow: row wrap;
-      margin-left: 150px;
-      color: var(--bgcg1);
-    }
-    div.fot1 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 150px;
-      box-sizing: content-box;
-      margin-top: 20px;
+  div.footer-md-sm-xs {
+    width: inherit;
+    height: inherit;
+    // background-color: var(--bgcg1);
 
-      > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none;
-      }
-    }
-    div.foot2 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 350px;
-      box-sizing: content-box;
-      margin-top: -345px;
-
-      > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none;
-      }
-    }
-    div.foot3 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 600px;
-      box-sizing: content-box;
-      margin-top: -290px;
-
-      > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none;
-      }
-    }
-    > div.foot4 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 840px;
-      box-sizing: content-box;
-      margin-top: -235px;
-
-      > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none;
-      }
-    }
-    div.foot5 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 1120px;
-      box-sizing: content-box;
-      margin-top: -305px;
-
-      > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none;
-      }
-    }
-    section.A {
-      width: 70%;
-      margin-left: 140px;
-      border-bottom: 1px solid rgb(119, 119, 119);
-
+    > section.A {
+      width: inherit;
+      height: inherit;
+      // background-color: blue;
       > h4 {
         font-size: smaller;
         font-weight: lighter;
         font-family: fantasy, Geneva, Tahoma, sans-serif;
         color: #5a5a5a;
-        margin-top: 40px;
+        margin-left: 20px;
       }
     }
+
+    section.D {
+      width: inherit;
+      height: inherit;
+      // background-color: violet;
+      > li {
+        font-size: smaller;
+        font-weight: 600;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        list-style: none;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    }
+
     section.B {
-      margin-top: -30px;
-      margin-left: 140px;
+      margin-top: -10px;
+      margin-left: 20px;
 
       > h5 {
         font-size: smaller;
         font-weight: lighter;
         font-family: fantasy, Geneva, Tahoma, sans-serif;
         color: #5a5a5a;
-        margin-top: 40px;
+        margin-top: 30px;
       }
     }
+
     section.C {
       box-sizing: content-box;
       > ul {
         display: flex;
         flex-flow: row wrap;
         list-style: none;
-        margin-left: 450px;
+        margin-left: 20px;
         font-size: small;
         font-weight: lighter;
         font-family: fantasy, Geneva, Tahoma, sans-serif;
-        color: var(--bgc3);
-        margin-top: -15px;
+        color: var(--bgcg1);
+        margin-top: 10px;
       }
-    }
-    section.D {
-      display: flex;
-      flex-flow: row wrap;
-      list-style: none;
-      margin-left: 1000px;
-      font-size: small;
-      font-weight: lighter;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      color: var(--bgc3);
-      margin-top: -15px;
     }
   }
 }
@@ -833,164 +658,72 @@
 @include xs {
   footer.footer {
     width: 100%;
-    height: 850px;
+    height: 50%;
     background-color: var(--bgcg0);
     list-style: none;
+    display: none;
+  }
 
-    > li {
-      width: 80%;
-      height: 30px;
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      display: flex;
-      flex-flow: row wrap;
-      margin-left: 150px;
-      color: var(--bgcg1);
-    }
-    div.fot1 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 150px;
-      box-sizing: content-box;
-      margin-top: 20px;
+  div.footer-md-sm-xs {
+    width: inherit;
+    height: inherit;
+    // background-color: var(--bgcg1);
 
-      > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none;
-      }
-    }
-    div.foot2 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 350px;
-      box-sizing: content-box;
-      margin-top: -345px;
-
-      > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none;
-      }
-    }
-    div.foot3 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 600px;
-      box-sizing: content-box;
-      margin-top: -290px;
-
-      > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none;
-      }
-    }
-    > div.foot4 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 840px;
-      box-sizing: content-box;
-      margin-top: -235px;
-
-      > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none;
-      }
-    }
-    div.foot5 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 1120px;
-      box-sizing: content-box;
-      margin-top: -305px;
-
-      > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none;
-      }
-    }
-    section.A {
-      width: 70%;
-      margin-left: 140px;
-      border-bottom: 1px solid rgb(119, 119, 119);
-
+    > section.A {
+      width: inherit;
+      height: inherit;
+      // background-color: blue;
       > h4 {
         font-size: smaller;
         font-weight: lighter;
         font-family: fantasy, Geneva, Tahoma, sans-serif;
         color: #5a5a5a;
-        margin-top: 40px;
+        margin-left: 20px;
       }
     }
+
+    section.D {
+      width: inherit;
+      height: 30px;
+      // background-color: violet;
+      > li {
+        font-size: smaller;
+        font-weight: 600;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        list-style: none;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    }
+
     section.B {
-      margin-top: -30px;
-      margin-left: 140px;
+      margin-top: -10px;
+      margin-left: 20px;
 
       > h5 {
         font-size: smaller;
         font-weight: lighter;
         font-family: fantasy, Geneva, Tahoma, sans-serif;
         color: #5a5a5a;
-        margin-top: 40px;
+        margin-top: 20px;
       }
     }
+
     section.C {
       box-sizing: content-box;
       > ul {
         display: flex;
         flex-flow: row wrap;
         list-style: none;
-        margin-left: 450px;
-        font-size: small;
+        margin-left: 20px;
+        font-size: x-small;
         font-weight: lighter;
         font-family: fantasy, Geneva, Tahoma, sans-serif;
-        color: var(--bgc3);
-        margin-top: -15px;
+        color: var(--bgcg1);
+        margin-top: 20px;
+        margin-bottom: 20px;
       }
-    }
-    section.D {
-      display: flex;
-      flex-flow: row wrap;
-      list-style: none;
-      margin-left: 1000px;
-      font-size: small;
-      font-weight: lighter;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      color: var(--bgc3);
-      margin-top: -15px;
     }
   }
 }

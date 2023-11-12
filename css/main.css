@@ -88,7 +88,9 @@ body {
   --bgca: #c5c5c5;
   --bgcb: #7a7a7a; }
 
-@media all and (min-width: 1330px) {
+@media all and (min-width: 1400px) {
+  .md-sm-xs {
+    display: none; }
   .xxl-xl-lg header {
     width: 100%;
     height: 60px;
@@ -118,14 +120,14 @@ body {
             width: 5000%;
             height: 400px;
             margin-top: 0 auto;
-            margin-left: -280px;
+            margin-left: -380px;
             background-color: var(--bgcmenu1);
             display: none; }
             .xxl-xl-lg header > nav > ul > li > .nav1 > .firstone {
               width: 200px;
               height: 400px;
               position: absolute;
-              margin-left: 230px; }
+              margin-left: 340px; }
               .xxl-xl-lg header > nav > ul > li > .nav1 > .firstone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -141,7 +143,7 @@ body {
               width: 200px;
               height: 350px;
               position: absolute;
-              margin-left: 430px; }
+              margin-left: 550px; }
               .xxl-xl-lg header > nav > ul > li > .nav1 > .secondone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -157,7 +159,7 @@ body {
               width: 200px;
               height: 350px;
               position: absolute;
-              margin-left: 570px; }
+              margin-left: 680px; }
               .xxl-xl-lg header > nav > ul > li > .nav1 > .thirdone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -228,14 +230,14 @@ body {
             width: 6000%;
             height: 400px;
             margin-top: 0 auto;
-            margin-left: -380px;
+            margin-left: -550px;
             background-color: var(--bgcmenu1);
             display: none; }
             .xxl-xl-lg header > nav > ul > li > .nav3 > .firstone {
               width: 200px;
               height: 400px;
               position: absolute;
-              margin-left: 240px; }
+              margin-left: 410px; }
               .xxl-xl-lg header > nav > ul > li > .nav3 > .firstone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -251,7 +253,7 @@ body {
               width: 200px;
               height: 350px;
               position: absolute;
-              margin-left: 450px; }
+              margin-left: 640px; }
               .xxl-xl-lg header > nav > ul > li > .nav3 > .secondone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -267,7 +269,7 @@ body {
               width: 200px;
               height: 350px;
               position: absolute;
-              margin-left: 580px; }
+              margin-left: 770px; }
               .xxl-xl-lg header > nav > ul > li > .nav3 > .thirdone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -283,14 +285,14 @@ body {
             width: 6000%;
             height: 400px;
             margin-top: 0 auto;
-            margin-left: -480px;
+            margin-left: -500px;
             background-color: var(--bgcmenu1);
             display: none; }
             .xxl-xl-lg header > nav > ul > li > .nav4 > .firstone {
               width: 200px;
               height: 400px;
               position: absolute;
-              margin-left: 300px; }
+              margin-left: 320px; }
               .xxl-xl-lg header > nav > ul > li > .nav4 > .firstone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -306,7 +308,7 @@ body {
               width: 200px;
               height: 350px;
               position: absolute;
-              margin-left: 500px; }
+              margin-left: 550px; }
               .xxl-xl-lg header > nav > ul > li > .nav4 > .secondone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -322,7 +324,7 @@ body {
               width: 200px;
               height: 350px;
               position: absolute;
-              margin-left: 650px; }
+              margin-left: 700px; }
               .xxl-xl-lg header > nav > ul > li > .nav4 > .thirdone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -338,14 +340,14 @@ body {
             width: 6000%;
             height: 400px;
             margin-top: 0 auto;
-            margin-left: -480px;
+            margin-left: -630px;
             background-color: var(--bgcmenu1);
             display: none; }
             .xxl-xl-lg header > nav > ul > li > .nav5 > .firstone {
               width: 200px;
               height: 400px;
               position: absolute;
-              margin-left: 230px; }
+              margin-left: 390px; }
               .xxl-xl-lg header > nav > ul > li > .nav5 > .firstone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -361,7 +363,7 @@ body {
               width: 200px;
               height: 350px;
               position: absolute;
-              margin-left: 480px; }
+              margin-left: 680px; }
               .xxl-xl-lg header > nav > ul > li > .nav5 > .secondone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -377,7 +379,7 @@ body {
               width: 200px;
               height: 350px;
               position: absolute;
-              margin-left: 650px; }
+              margin-left: 850px; }
               .xxl-xl-lg header > nav > ul > li > .nav5 > .thirdone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -393,14 +395,14 @@ body {
             width: 6000%;
             height: 400px;
             margin-top: 0 auto;
-            margin-left: -600px;
+            margin-left: -650px;
             background-color: var(--bgcmenu1);
             display: none; }
             .xxl-xl-lg header > nav > ul > li > .nav7 > .firstone {
               width: 200px;
               height: 400px;
               position: absolute;
-              margin-left: 250px; }
+              margin-left: 290px; }
               .xxl-xl-lg header > nav > ul > li > .nav7 > .firstone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -416,7 +418,7 @@ body {
               width: 200px;
               height: 350px;
               position: absolute;
-              margin-left: 480px; }
+              margin-left: 550px; }
               .xxl-xl-lg header > nav > ul > li > .nav7 > .secondone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -432,7 +434,7 @@ body {
               width: 200px;
               height: 350px;
               position: absolute;
-              margin-left: 650px; }
+              margin-left: 700px; }
               .xxl-xl-lg header > nav > ul > li > .nav7 > .thirdone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -471,7 +473,7 @@ body {
               width: 200px;
               height: 350px;
               position: absolute;
-              margin-left: 500px; }
+              margin-left: 530px; }
               .xxl-xl-lg header > nav > ul > li > .nav8 > .secondone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -503,14 +505,14 @@ body {
             width: 6000%;
             height: 400px;
             margin-top: 0 auto;
-            margin-left: -750px;
+            margin-left: -790px;
             background-color: var(--bgcmenu1);
             display: none; }
             .xxl-xl-lg header > nav > ul > li > .nav9 > .firstone {
               width: 200px;
               height: 400px;
               position: absolute;
-              margin-left: 240px; }
+              margin-left: 270px; }
               .xxl-xl-lg header > nav > ul > li > .nav9 > .firstone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -558,14 +560,14 @@ body {
             width: 6000%;
             height: 400px;
             margin-top: 0 auto;
-            margin-left: -850px;
+            margin-left: -900px;
             background-color: var(--bgcmenu1);
             display: none; }
             .xxl-xl-lg header > nav > ul > li > .nav10 > .firstone {
               width: 200px;
               height: 400px;
               position: absolute;
-              margin-left: 230px; }
+              margin-left: 280px; }
               .xxl-xl-lg header > nav > ul > li > .nav10 > .firstone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -613,14 +615,14 @@ body {
             width: 6000%;
             height: 400px;
             margin-top: 0 auto;
-            margin-left: -950px;
+            margin-left: -1000px;
             background-color: var(--bgcmenu1);
             display: none; }
             .xxl-xl-lg header > nav > ul > li > .nav11 > .firstone {
               width: 200px;
               height: 400px;
               position: absolute;
-              margin-left: 240px; }
+              margin-left: 300px; }
               .xxl-xl-lg header > nav > ul > li > .nav11 > .firstone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -636,7 +638,7 @@ body {
               width: 200px;
               height: 350px;
               position: absolute;
-              margin-left: 450px; }
+              margin-left: 500px; }
               .xxl-xl-lg header > nav > ul > li > .nav11 > .secondone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -652,7 +654,7 @@ body {
               width: 200px;
               height: 350px;
               position: absolute;
-              margin-left: 600px; }
+              margin-left: 630px; }
               .xxl-xl-lg header > nav > ul > li > .nav11 > .thirdone > h6 {
                 font-size: small;
                 color: var(--bgcb);
@@ -679,7 +681,9 @@ body {
             cursor: pointer;
             color: var(--bgca); } }
 
-@media all and (min-width: 1200px) and (max-width: 1329px) {
+@media all and (min-width: 1200px) and (max-width: 1399px) {
+  .md-sm-xs {
+    display: none; }
   .xxl-xl-lg header {
     width: 100%;
     height: 60px;
@@ -1279,6 +1283,8 @@ body {
         display: inline-flex; } }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
+  .md-sm-xs {
+    display: none; }
   .xxl-xl-lg header {
     width: 100%;
     height: 60px;
@@ -1890,11 +1896,11 @@ body {
     top: 0;
     cursor: pointer; }
     .md-sm-xs > .first {
-      position: relative;
+      display: flex;
+      flex-flow: row wrap;
       margin-left: 20px;
       margin-top: 10px; }
     .md-sm-xs > .second {
-      position: absolute;
       display: flex;
       flex-flow: row wrap;
       margin-left: 600px;
@@ -1903,10 +1909,675 @@ body {
         margin-left: 20px; }
     .md-sm-xs > .menu-BOX-little {
       width: 768px;
-      height: 400px;
+      height: 600px;
       margin-top: 0 auto;
       background-color: var(--bgcmenu1);
       display: none; }
+      .md-sm-xs > .menu-BOX-little > ul {
+        width: 768px;
+        height: 50px; }
+        .md-sm-xs > .menu-BOX-little > ul > li {
+          display: flex;
+          flex-flow: column nowrap;
+          list-style: none; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: -10px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .firstone > h6 > li {
+                    font-size: 20px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -10px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: 130px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: -50px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .firstone > h6 > li {
+                    font-size: 20px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -50px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: 90px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: -80px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .firstone > h6 > li {
+                    font-size: 20px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -85px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: 80px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: -120px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .firstone > h6 > li {
+                    font-size: 20px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -115px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: 30px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: -160px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .firstone > h6 > li {
+                    font-size: 20px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -160px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: 30px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: -245px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .firstone > h6 > li {
+                    font-size: 20px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -245px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -90px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: -275px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .firstone > h6 > li {
+                    font-size: 20px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -270px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -90px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: -320px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .firstone > h6 > li {
+                    font-size: 20px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -320px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -90px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: -360px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .firstone > h6 > li {
+                    font-size: 20px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -360px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -90px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 60px;
+                margin-top: -400px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .firstone > h6 > li {
+                    font-size: 20px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -400px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -240px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li > a {
+            color: #c5c5c5;
+            font-weight: 600;
+            font-size: x-large;
+            font-family: fantasy, Geneva, Tahoma, sans-serif;
+            margin-top: 10px;
+            margin-left: 30px;
+            text-decoration: none; }
     .md-sm-xs:hover > div {
       display: inline-flex; } }
 
@@ -1935,14 +2606,681 @@ body {
         margin-left: 20px; }
     .md-sm-xs > .menu-BOX-little {
       width: 576px;
-      height: 400px;
+      height: 500px;
       margin-top: 0 auto;
       background-color: var(--bgcmenu1);
       display: none; }
+      .md-sm-xs > .menu-BOX-little > ul {
+        width: 768px;
+        height: 50px; }
+        .md-sm-xs > .menu-BOX-little > ul > li {
+          display: flex;
+          flex-flow: row wrap;
+          list-style: none;
+          font-size: xx-small; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: 300px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 30px;
+                margin-top: -10px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .firstone > h6 {
+                  font-size: xx-small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .firstone > h6 > li {
+                    font-size: 16px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 180px;
+                margin-top: -10px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 180px;
+                margin-top: 130px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 30px;
+                margin-top: -50px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 16px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .firstone > h6 > li {
+                    font-size: 16px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: -50px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: 90px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 30px;
+                margin-top: -80px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .firstone > h6 > li {
+                    font-size: 16px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: -85px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: 80px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 30px;
+                margin-top: -120px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 16px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .firstone > h6 > li {
+                    font-size: 16px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: -115px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: 30px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 10px;
+                margin-top: -160px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 16px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .firstone > h6 > li {
+                    font-size: 16px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: -160px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: 30px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 3px;
+                margin-top: -245px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .firstone > h6 > li {
+                    font-size: 16px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 210px;
+                margin-top: -245px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 210px;
+                margin-top: -90px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 30px;
+                margin-top: -275px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .firstone > h6 > li {
+                    font-size: 16px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: -270px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: -90px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 30px;
+                margin-top: -320px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .firstone > h6 > li {
+                    font-size: 16px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: -320px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: -90px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 10px;
+                margin-top: -360px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .firstone > h6 > li {
+                    font-size: 16px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: -360px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: -90px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: 10px;
+                margin-top: -400px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .firstone > h6 > li {
+                    font-size: 16px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: -400px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: -240px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li > a {
+            color: #c5c5c5;
+            font-weight: 600;
+            font-size: x-large;
+            font-family: fantasy, Geneva, Tahoma, sans-serif;
+            margin-top: 10px;
+            margin-left: 30px;
+            text-decoration: none;
+            position: relative; }
     .md-sm-xs:hover > div {
       display: inline-flex; } }
 
-@media all and (min-width: 360px) and (max-width: 575px) {
+@media all and (max-width: 575px) {
   .xxl-xl-lg {
     display: none; }
   .md-sm-xs {
@@ -1955,7 +3293,7 @@ body {
     cursor: pointer; }
     .md-sm-xs > .first {
       position: relative;
-      margin-left: 20px;
+      margin-left: 10px;
       margin-top: 10px; }
     .md-sm-xs > .second {
       position: absolute;
@@ -1967,14 +3305,683 @@ body {
         margin-left: 20px; }
     .md-sm-xs > .menu-BOX-little {
       width: 360px;
-      height: 400px;
+      height: 500px;
       margin-top: 0 auto;
       background-color: var(--bgcmenu1);
       display: none; }
+      .md-sm-xs > .menu-BOX-little > ul {
+        width: 360px;
+        height: 10px; }
+        .md-sm-xs > .menu-BOX-little > ul > li {
+          height: 35px;
+          display: flex;
+          flex-flow: row nowrap;
+          list-style: none;
+          margin-left: -20px;
+          font-weight: 100; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 160px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: 10px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -10px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .firstone > h6 {
+                  font-size: smaller;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .firstone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: 150px;
+                font-size: xx-small; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: 300px;
+                font-size: xx-small; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav1 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -40px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .firstone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: 150px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: 300px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav2 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -80px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .firstone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bolder;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: 150px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: 290px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav3 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -110px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 16px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .firstone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: 100px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: 230px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav4 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -150px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 16px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .firstone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: 60px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: 200px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav5 > .thirdone > h6 > li {
+                    font-size: 13;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 5px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -220px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .firstone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -30px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: 110px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav7 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -250px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .firstone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -120px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: 70px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav8 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -290px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .firstone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -120px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: 220px;
+                margin-top: -90px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav9 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -320px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .firstone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -60px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav10 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li:hover > .T-one {
+            display: inline-flex; }
+          .md-sm-xs > .menu-BOX-little > ul > li > div.T-one {
+            width: 568px;
+            height: 600px;
+            position: absolute;
+            margin-left: 200px;
+            display: none;
+            color: var(--bgca); }
+            .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 {
+              display: contents;
+              width: 5000%;
+              height: 400px;
+              margin-top: 0 auto;
+              margin-left: -310px;
+              background-color: var(--bgcmenu1); }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .firstone {
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -360px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .firstone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .firstone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .secondone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -170px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .secondone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px;
+                  font-family: fantasy, Geneva, Tahoma, sans-serif; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .secondone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px;
+                    font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .thirdone {
+                width: 200px;
+                height: 350px;
+                position: absolute;
+                margin-left: -5px;
+                margin-top: -50px; }
+                .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .thirdone > h6 {
+                  font-size: small;
+                  color: var(--bgcb);
+                  margin-top: 20px; }
+                  .md-sm-xs > .menu-BOX-little > ul > li > div.T-one > .nav11 > .thirdone > h6 > li {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: var(--bgca);
+                    margin-top: 10px; }
+          .md-sm-xs > .menu-BOX-little > ul > li > a {
+            color: #c5c5c5;
+            font-weight: 900;
+            font-size: medium;
+            font-family: fantasy, Geneva, Tahoma, sans-serif;
+            margin-top: 10px;
+            margin-left: 30px;
+            text-decoration: none;
+            position: relative; }
     .md-sm-xs:hover > div {
       display: inline-flex; } }
 
-@media all and (min-width: 1330px) {
+@media all and (min-width: 1400px) {
   main {
     width: 100%;
     height: auto;
@@ -2005,17 +4012,17 @@ body {
         position: absolute;
         width: 100%;
         height: auto;
-        top: 47px;
+        top: 70px;
         display: flex;
         flex-flow: column wrap;
         gap: 10px;
         align-items: center;
         align-content: center; }
         main > section.first > div.title > h2 {
-          font-size: 50px;
+          font-size: 40px;
           font-family: fantasy, Geneva, Tahoma, sans-serif; }
         main > section.first > div.title > h3 {
-          font-size: 25px;
+          font-size: 15px;
           font-family: fantasy, Geneva, Tahoma, sans-serif; }
         main > section.first > div.title > div {
           display: flex;
@@ -2027,115 +4034,67 @@ body {
           text-decoration: none;
           color: #2997ff; }
           main > section.first > div.title > a:hover {
-            text-decoration: underline; }
-    main > section.second {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-flow: row nowrap;
-      gap: 10px; }
-      main > section.second > div {
-        width: 50%;
-        height: 580px;
+            text-decoration: underline; } }
+    @media all and (min-width: 1400px) and (max-width: 575px) {
+      main > section.first {
+        width: 100%;
+        height: 360px;
         position: relative; }
-        main > section.second > div > div.box {
+        main > section.first .xxl-xl-lg {
+          display: none; }
+        main > section.first > div.box {
           width: 100%;
           height: inherit; }
-          main > section.second > div > div.box > a {
+          main > section.first > div.box > a {
             display: flex;
             width: 100%;
             height: inherit;
             text-decoration: none;
             color: #2997ff; }
-            main > section.second > div > div.box > a:hover {
+            main > section.first > div.box > a:hover {
               text-decoration: underline; }
-            main > section.second > div > div.box > a > img {
+            main > section.first > div.box > a > img {
               width: 100%;
               height: inherit;
               object-fit: cover;
               object-position: center; }
-        main > section.second > div > div.title {
+        main > section.first > div.title {
           position: absolute;
           width: 100%;
           height: auto;
-          top: 47px;
+          font-size: x-small;
+          text-align: center;
+          top: 70px;
           display: flex;
           flex-flow: column wrap;
           gap: 10px;
           align-items: center;
           align-content: center; }
-          main > section.second > div > div.title > h2 {
-            font-size: 50px;
+          main > section.first > div.title > h2 {
+            font-size: 30px;
             font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          main > section.second > div > div.title > h3 {
-            font-size: 25px;
+            main > section.first > div.title > h2 img {
+              width: 100px;
+              height: 20px; }
+          main > section.first > div.title > h4 {
+            width: 100px;
+            height: 50px; }
+          main > section.first > div.title > h3 {
+            font-size: 15px;
             font-family: fantasy, Geneva, Tahoma, sans-serif; }
-          main > section.second > div > div.title > div {
+          main > section.first > div.title > div {
             display: flex;
             flex-flow: row nowrap;
             gap: 10px; }
-          main > section.second > div > div.title > a {
+          main > section.first > div.title > a {
             padding: 0 20px;
             font-size: 20px;
             text-decoration: none;
             color: #2997ff; }
-            main > section.second > div > div.title > a:hover {
+            main > section.first > div.title > a:hover {
               text-decoration: underline; } }
 
-@media all and (min-width: 1200px) and (max-width: 1329px) {
-  main {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-flow: column wrap;
-    gap: 10px; }
-    main > section.first {
-      width: 100%;
-      height: 580px;
-      position: relative; }
-      main > section.first > div.box {
-        width: 100%;
-        height: inherit; }
-        main > section.first > div.box > a {
-          display: flex;
-          width: 100%;
-          height: inherit;
-          text-decoration: none;
-          color: #2997ff; }
-          main > section.first > div.box > a:hover {
-            text-decoration: underline; }
-          main > section.first > div.box > a > img {
-            width: 100%;
-            height: inherit;
-            object-fit: cover;
-            object-position: center; }
-      main > section.first > div.title {
-        position: absolute;
-        width: 100%;
-        height: auto;
-        top: 47px;
-        display: flex;
-        flex-flow: column wrap;
-        gap: 10px;
-        align-items: center;
-        align-content: center; }
-        main > section.first > div.title > h2 {
-          font-size: 50px;
-          font-family: fantasy, Geneva, Tahoma, sans-serif; }
-        main > section.first > div.title > h3 {
-          font-size: 25px;
-          font-family: fantasy, Geneva, Tahoma, sans-serif; }
-        main > section.first > div.title > div {
-          display: flex;
-          flex-flow: row nowrap;
-          gap: 10px; }
-        main > section.first > div.title > a {
-          padding: 0 20px;
-          font-size: 20px;
-          text-decoration: none;
-          color: #2997ff; }
-          main > section.first > div.title > a:hover {
-            text-decoration: underline; }
+@media all and (min-width: 1400px) {
     main > section.second {
       width: 100%;
       height: auto;
@@ -2166,17 +4125,17 @@ body {
           position: absolute;
           width: 100%;
           height: auto;
-          top: 47px;
+          top: 70px;
           display: flex;
           flex-flow: column wrap;
           gap: 10px;
           align-items: center;
           align-content: center; }
           main > section.second > div > div.title > h2 {
-            font-size: 50px;
+            font-size: 40px;
             font-family: fantasy, Geneva, Tahoma, sans-serif; }
           main > section.second > div > div.title > h3 {
-            font-size: 25px;
+            font-size: 15px;
             font-family: fantasy, Geneva, Tahoma, sans-serif; }
           main > section.second > div > div.title > div {
             display: flex;
@@ -2189,6 +4148,290 @@ body {
             color: #2997ff; }
             main > section.second > div > div.title > a:hover {
               text-decoration: underline; } }
+      @media all and (min-width: 1400px) and (max-width: 575px) {
+        main > section.second > div {
+          width: 50%;
+          height: 360px;
+          position: relative; }
+          main > section.second > div .xxl-xl-lg {
+            display: none; }
+          main > section.second > div > div.box {
+            width: 100%;
+            height: inherit; }
+            main > section.second > div > div.box > a {
+              display: flex;
+              width: 100%;
+              height: inherit;
+              text-decoration: none;
+              color: #2997ff; }
+              main > section.second > div > div.box > a:hover {
+                text-decoration: underline; }
+              main > section.second > div > div.box > a > img {
+                width: 100%;
+                height: inherit;
+                object-fit: cover;
+                object-position: center; }
+          main > section.second > div > div.title {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            font-size: x-small;
+            text-align: center;
+            top: 70px;
+            display: flex;
+            flex-flow: column wrap;
+            gap: 10px;
+            align-items: center;
+            align-content: center; }
+            main > section.second > div > div.title > h2 {
+              font-size: 30px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              main > section.second > div > div.title > h2 img {
+                width: 100px;
+                height: 20px; }
+            main > section.second > div > div.title > h4 {
+              width: 100px;
+              height: 50px; }
+            main > section.second > div > div.title > h3 {
+              font-size: 15px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            main > section.second > div > div.title > div {
+              display: flex;
+              flex-flow: row nowrap;
+              gap: 10px; }
+            main > section.second > div > div.title > a {
+              padding: 0 20px;
+              font-size: 20px;
+              text-decoration: none;
+              color: #2997ff; }
+              main > section.second > div > div.title > a:hover {
+                text-decoration: underline; } }
+
+@media all and (min-width: 1200px) and (max-width: 1399px) {
+  main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px; }
+    main > section.first {
+      width: 100%;
+      height: 580px;
+      position: relative; }
+      main > section.first > div.box {
+        width: 100%;
+        height: inherit; }
+        main > section.first > div.box > a {
+          display: flex;
+          width: 100%;
+          height: inherit;
+          text-decoration: none;
+          color: #2997ff; }
+          main > section.first > div.box > a:hover {
+            text-decoration: underline; }
+          main > section.first > div.box > a > img {
+            width: 100%;
+            height: inherit;
+            object-fit: cover;
+            object-position: center; }
+      main > section.first > div.title {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 70px;
+        display: flex;
+        flex-flow: column wrap;
+        gap: 10px;
+        align-items: center;
+        align-content: center; }
+        main > section.first > div.title > h2 {
+          font-size: 40px;
+          font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        main > section.first > div.title > h3 {
+          font-size: 15px;
+          font-family: fantasy, Geneva, Tahoma, sans-serif; }
+        main > section.first > div.title > div {
+          display: flex;
+          flex-flow: row nowrap;
+          gap: 10px; }
+        main > section.first > div.title > a {
+          padding: 0 20px;
+          font-size: 20px;
+          text-decoration: none;
+          color: #2997ff; }
+          main > section.first > div.title > a:hover {
+            text-decoration: underline; } }
+    @media all and (min-width: 1200px) and (max-width: 1399px) and (max-width: 575px) {
+      main > section.first {
+        width: 100%;
+        height: 360px;
+        position: relative; }
+        main > section.first .xxl-xl-lg {
+          display: none; }
+        main > section.first > div.box {
+          width: 100%;
+          height: inherit; }
+          main > section.first > div.box > a {
+            display: flex;
+            width: 100%;
+            height: inherit;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.first > div.box > a:hover {
+              text-decoration: underline; }
+            main > section.first > div.box > a > img {
+              width: 100%;
+              height: inherit;
+              object-fit: cover;
+              object-position: center; }
+        main > section.first > div.title {
+          position: absolute;
+          width: 100%;
+          height: auto;
+          font-size: x-small;
+          text-align: center;
+          top: 70px;
+          display: flex;
+          flex-flow: column wrap;
+          gap: 10px;
+          align-items: center;
+          align-content: center; }
+          main > section.first > div.title > h2 {
+            font-size: 30px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            main > section.first > div.title > h2 img {
+              width: 100px;
+              height: 20px; }
+          main > section.first > div.title > h4 {
+            width: 100px;
+            height: 50px; }
+          main > section.first > div.title > h3 {
+            font-size: 15px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.first > div.title > div {
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 10px; }
+          main > section.first > div.title > a {
+            padding: 0 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.first > div.title > a:hover {
+              text-decoration: underline; } }
+
+@media all and (min-width: 1200px) and (max-width: 1399px) {
+    main > section.second {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 10px; }
+      main > section.second > div {
+        width: 50%;
+        height: 580px;
+        position: relative; }
+        main > section.second > div > div.box {
+          width: 100%;
+          height: inherit; }
+          main > section.second > div > div.box > a {
+            display: flex;
+            width: 100%;
+            height: inherit;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.second > div > div.box > a:hover {
+              text-decoration: underline; }
+            main > section.second > div > div.box > a > img {
+              width: 100%;
+              height: inherit;
+              object-fit: cover;
+              object-position: center; }
+        main > section.second > div > div.title {
+          position: absolute;
+          width: 100%;
+          height: auto;
+          top: 70px;
+          display: flex;
+          flex-flow: column wrap;
+          gap: 10px;
+          align-items: center;
+          align-content: center; }
+          main > section.second > div > div.title > h2 {
+            font-size: 40px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.second > div > div.title > h3 {
+            font-size: 15px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.second > div > div.title > div {
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 10px; }
+          main > section.second > div > div.title > a {
+            padding: 0 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.second > div > div.title > a:hover {
+              text-decoration: underline; } }
+      @media all and (min-width: 1200px) and (max-width: 1399px) and (max-width: 575px) {
+        main > section.second > div {
+          width: 50%;
+          height: 360px;
+          position: relative; }
+          main > section.second > div .xxl-xl-lg {
+            display: none; }
+          main > section.second > div > div.box {
+            width: 100%;
+            height: inherit; }
+            main > section.second > div > div.box > a {
+              display: flex;
+              width: 100%;
+              height: inherit;
+              text-decoration: none;
+              color: #2997ff; }
+              main > section.second > div > div.box > a:hover {
+                text-decoration: underline; }
+              main > section.second > div > div.box > a > img {
+                width: 100%;
+                height: inherit;
+                object-fit: cover;
+                object-position: center; }
+          main > section.second > div > div.title {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            font-size: x-small;
+            text-align: center;
+            top: 70px;
+            display: flex;
+            flex-flow: column wrap;
+            gap: 10px;
+            align-items: center;
+            align-content: center; }
+            main > section.second > div > div.title > h2 {
+              font-size: 30px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              main > section.second > div > div.title > h2 img {
+                width: 100px;
+                height: 20px; }
+            main > section.second > div > div.title > h4 {
+              width: 100px;
+              height: 50px; }
+            main > section.second > div > div.title > h3 {
+              font-size: 15px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            main > section.second > div > div.title > div {
+              display: flex;
+              flex-flow: row nowrap;
+              gap: 10px; }
+            main > section.second > div > div.title > a {
+              padding: 0 20px;
+              font-size: 20px;
+              text-decoration: none;
+              color: #2997ff; }
+              main > section.second > div > div.title > a:hover {
+                text-decoration: underline; } }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
   main {
@@ -2221,17 +4464,17 @@ body {
         position: absolute;
         width: 100%;
         height: auto;
-        top: 47px;
+        top: 70px;
         display: flex;
         flex-flow: column wrap;
         gap: 10px;
         align-items: center;
         align-content: center; }
         main > section.first > div.title > h2 {
-          font-size: 50px;
+          font-size: 40px;
           font-family: fantasy, Geneva, Tahoma, sans-serif; }
         main > section.first > div.title > h3 {
-          font-size: 25px;
+          font-size: 15px;
           font-family: fantasy, Geneva, Tahoma, sans-serif; }
         main > section.first > div.title > div {
           display: flex;
@@ -2243,7 +4486,67 @@ body {
           text-decoration: none;
           color: #2997ff; }
           main > section.first > div.title > a:hover {
-            text-decoration: underline; }
+            text-decoration: underline; } }
+    @media all and (min-width: 992px) and (max-width: 1199px) and (max-width: 575px) {
+      main > section.first {
+        width: 100%;
+        height: 360px;
+        position: relative; }
+        main > section.first .xxl-xl-lg {
+          display: none; }
+        main > section.first > div.box {
+          width: 100%;
+          height: inherit; }
+          main > section.first > div.box > a {
+            display: flex;
+            width: 100%;
+            height: inherit;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.first > div.box > a:hover {
+              text-decoration: underline; }
+            main > section.first > div.box > a > img {
+              width: 100%;
+              height: inherit;
+              object-fit: cover;
+              object-position: center; }
+        main > section.first > div.title {
+          position: absolute;
+          width: 100%;
+          height: auto;
+          font-size: x-small;
+          text-align: center;
+          top: 70px;
+          display: flex;
+          flex-flow: column wrap;
+          gap: 10px;
+          align-items: center;
+          align-content: center; }
+          main > section.first > div.title > h2 {
+            font-size: 30px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            main > section.first > div.title > h2 img {
+              width: 100px;
+              height: 20px; }
+          main > section.first > div.title > h4 {
+            width: 100px;
+            height: 50px; }
+          main > section.first > div.title > h3 {
+            font-size: 15px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.first > div.title > div {
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 10px; }
+          main > section.first > div.title > a {
+            padding: 0 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.first > div.title > a:hover {
+              text-decoration: underline; } }
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
     main > section.second {
       width: 100%;
       height: auto;
@@ -2274,17 +4577,17 @@ body {
           position: absolute;
           width: 100%;
           height: auto;
-          top: 47px;
+          top: 70px;
           display: flex;
           flex-flow: column wrap;
           gap: 10px;
           align-items: center;
           align-content: center; }
           main > section.second > div > div.title > h2 {
-            font-size: 50px;
+            font-size: 40px;
             font-family: fantasy, Geneva, Tahoma, sans-serif; }
           main > section.second > div > div.title > h3 {
-            font-size: 25px;
+            font-size: 15px;
             font-family: fantasy, Geneva, Tahoma, sans-serif; }
           main > section.second > div > div.title > div {
             display: flex;
@@ -2297,6 +4600,64 @@ body {
             color: #2997ff; }
             main > section.second > div > div.title > a:hover {
               text-decoration: underline; } }
+      @media all and (min-width: 992px) and (max-width: 1199px) and (max-width: 575px) {
+        main > section.second > div {
+          width: 50%;
+          height: 360px;
+          position: relative; }
+          main > section.second > div .xxl-xl-lg {
+            display: none; }
+          main > section.second > div > div.box {
+            width: 100%;
+            height: inherit; }
+            main > section.second > div > div.box > a {
+              display: flex;
+              width: 100%;
+              height: inherit;
+              text-decoration: none;
+              color: #2997ff; }
+              main > section.second > div > div.box > a:hover {
+                text-decoration: underline; }
+              main > section.second > div > div.box > a > img {
+                width: 100%;
+                height: inherit;
+                object-fit: cover;
+                object-position: center; }
+          main > section.second > div > div.title {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            font-size: x-small;
+            text-align: center;
+            top: 70px;
+            display: flex;
+            flex-flow: column wrap;
+            gap: 10px;
+            align-items: center;
+            align-content: center; }
+            main > section.second > div > div.title > h2 {
+              font-size: 30px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              main > section.second > div > div.title > h2 img {
+                width: 100px;
+                height: 20px; }
+            main > section.second > div > div.title > h4 {
+              width: 100px;
+              height: 50px; }
+            main > section.second > div > div.title > h3 {
+              font-size: 15px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            main > section.second > div > div.title > div {
+              display: flex;
+              flex-flow: row nowrap;
+              gap: 10px; }
+            main > section.second > div > div.title > a {
+              padding: 0 20px;
+              font-size: 20px;
+              text-decoration: none;
+              color: #2997ff; }
+              main > section.second > div > div.title > a:hover {
+                text-decoration: underline; } }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
   main {
@@ -2329,17 +4690,17 @@ body {
         position: absolute;
         width: 100%;
         height: auto;
-        top: 47px;
+        top: 70px;
         display: flex;
         flex-flow: column wrap;
         gap: 10px;
         align-items: center;
         align-content: center; }
         main > section.first > div.title > h2 {
-          font-size: 50px;
+          font-size: 40px;
           font-family: fantasy, Geneva, Tahoma, sans-serif; }
         main > section.first > div.title > h3 {
-          font-size: 25px;
+          font-size: 15px;
           font-family: fantasy, Geneva, Tahoma, sans-serif; }
         main > section.first > div.title > div {
           display: flex;
@@ -2351,7 +4712,67 @@ body {
           text-decoration: none;
           color: #2997ff; }
           main > section.first > div.title > a:hover {
-            text-decoration: underline; }
+            text-decoration: underline; } }
+    @media all and (min-width: 768px) and (max-width: 991px) and (max-width: 575px) {
+      main > section.first {
+        width: 100%;
+        height: 360px;
+        position: relative; }
+        main > section.first .xxl-xl-lg {
+          display: none; }
+        main > section.first > div.box {
+          width: 100%;
+          height: inherit; }
+          main > section.first > div.box > a {
+            display: flex;
+            width: 100%;
+            height: inherit;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.first > div.box > a:hover {
+              text-decoration: underline; }
+            main > section.first > div.box > a > img {
+              width: 100%;
+              height: inherit;
+              object-fit: cover;
+              object-position: center; }
+        main > section.first > div.title {
+          position: absolute;
+          width: 100%;
+          height: auto;
+          font-size: x-small;
+          text-align: center;
+          top: 70px;
+          display: flex;
+          flex-flow: column wrap;
+          gap: 10px;
+          align-items: center;
+          align-content: center; }
+          main > section.first > div.title > h2 {
+            font-size: 30px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            main > section.first > div.title > h2 img {
+              width: 100px;
+              height: 20px; }
+          main > section.first > div.title > h4 {
+            width: 100px;
+            height: 50px; }
+          main > section.first > div.title > h3 {
+            font-size: 15px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.first > div.title > div {
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 10px; }
+          main > section.first > div.title > a {
+            padding: 0 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.first > div.title > a:hover {
+              text-decoration: underline; } }
+
+@media all and (min-width: 768px) and (max-width: 991px) {
     main > section.second {
       width: 100%;
       height: auto;
@@ -2382,17 +4803,17 @@ body {
           position: absolute;
           width: 100%;
           height: auto;
-          top: 47px;
+          top: 70px;
           display: flex;
           flex-flow: column wrap;
           gap: 10px;
           align-items: center;
           align-content: center; }
           main > section.second > div > div.title > h2 {
-            font-size: 50px;
+            font-size: 40px;
             font-family: fantasy, Geneva, Tahoma, sans-serif; }
           main > section.second > div > div.title > h3 {
-            font-size: 25px;
+            font-size: 15px;
             font-family: fantasy, Geneva, Tahoma, sans-serif; }
           main > section.second > div > div.title > div {
             display: flex;
@@ -2405,6 +4826,64 @@ body {
             color: #2997ff; }
             main > section.second > div > div.title > a:hover {
               text-decoration: underline; } }
+      @media all and (min-width: 768px) and (max-width: 991px) and (max-width: 575px) {
+        main > section.second > div {
+          width: 50%;
+          height: 360px;
+          position: relative; }
+          main > section.second > div .xxl-xl-lg {
+            display: none; }
+          main > section.second > div > div.box {
+            width: 100%;
+            height: inherit; }
+            main > section.second > div > div.box > a {
+              display: flex;
+              width: 100%;
+              height: inherit;
+              text-decoration: none;
+              color: #2997ff; }
+              main > section.second > div > div.box > a:hover {
+                text-decoration: underline; }
+              main > section.second > div > div.box > a > img {
+                width: 100%;
+                height: inherit;
+                object-fit: cover;
+                object-position: center; }
+          main > section.second > div > div.title {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            font-size: x-small;
+            text-align: center;
+            top: 70px;
+            display: flex;
+            flex-flow: column wrap;
+            gap: 10px;
+            align-items: center;
+            align-content: center; }
+            main > section.second > div > div.title > h2 {
+              font-size: 30px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              main > section.second > div > div.title > h2 img {
+                width: 100px;
+                height: 20px; }
+            main > section.second > div > div.title > h4 {
+              width: 100px;
+              height: 50px; }
+            main > section.second > div > div.title > h3 {
+              font-size: 15px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            main > section.second > div > div.title > div {
+              display: flex;
+              flex-flow: row nowrap;
+              gap: 10px; }
+            main > section.second > div > div.title > a {
+              padding: 0 20px;
+              font-size: 20px;
+              text-decoration: none;
+              color: #2997ff; }
+              main > section.second > div > div.title > a:hover {
+                text-decoration: underline; } }
 
 @media all and (min-width: 576px) and (max-width: 767px) {
   main {
@@ -2437,17 +4916,17 @@ body {
         position: absolute;
         width: 100%;
         height: auto;
-        top: 47px;
+        top: 70px;
         display: flex;
         flex-flow: column wrap;
         gap: 10px;
         align-items: center;
         align-content: center; }
         main > section.first > div.title > h2 {
-          font-size: 50px;
+          font-size: 40px;
           font-family: fantasy, Geneva, Tahoma, sans-serif; }
         main > section.first > div.title > h3 {
-          font-size: 25px;
+          font-size: 15px;
           font-family: fantasy, Geneva, Tahoma, sans-serif; }
         main > section.first > div.title > div {
           display: flex;
@@ -2459,7 +4938,67 @@ body {
           text-decoration: none;
           color: #2997ff; }
           main > section.first > div.title > a:hover {
-            text-decoration: underline; }
+            text-decoration: underline; } }
+    @media all and (min-width: 576px) and (max-width: 767px) and (max-width: 575px) {
+      main > section.first {
+        width: 100%;
+        height: 360px;
+        position: relative; }
+        main > section.first .xxl-xl-lg {
+          display: none; }
+        main > section.first > div.box {
+          width: 100%;
+          height: inherit; }
+          main > section.first > div.box > a {
+            display: flex;
+            width: 100%;
+            height: inherit;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.first > div.box > a:hover {
+              text-decoration: underline; }
+            main > section.first > div.box > a > img {
+              width: 100%;
+              height: inherit;
+              object-fit: cover;
+              object-position: center; }
+        main > section.first > div.title {
+          position: absolute;
+          width: 100%;
+          height: auto;
+          font-size: x-small;
+          text-align: center;
+          top: 70px;
+          display: flex;
+          flex-flow: column wrap;
+          gap: 10px;
+          align-items: center;
+          align-content: center; }
+          main > section.first > div.title > h2 {
+            font-size: 30px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            main > section.first > div.title > h2 img {
+              width: 100px;
+              height: 20px; }
+          main > section.first > div.title > h4 {
+            width: 100px;
+            height: 50px; }
+          main > section.first > div.title > h3 {
+            font-size: 15px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.first > div.title > div {
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 10px; }
+          main > section.first > div.title > a {
+            padding: 0 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.first > div.title > a:hover {
+              text-decoration: underline; } }
+
+@media all and (min-width: 576px) and (max-width: 767px) {
     main > section.second {
       width: 100%;
       height: auto;
@@ -2490,17 +5029,17 @@ body {
           position: absolute;
           width: 100%;
           height: auto;
-          top: 47px;
+          top: 70px;
           display: flex;
           flex-flow: column wrap;
           gap: 10px;
           align-items: center;
           align-content: center; }
           main > section.second > div > div.title > h2 {
-            font-size: 50px;
+            font-size: 40px;
             font-family: fantasy, Geneva, Tahoma, sans-serif; }
           main > section.second > div > div.title > h3 {
-            font-size: 25px;
+            font-size: 15px;
             font-family: fantasy, Geneva, Tahoma, sans-serif; }
           main > section.second > div > div.title > div {
             display: flex;
@@ -2513,8 +5052,66 @@ body {
             color: #2997ff; }
             main > section.second > div > div.title > a:hover {
               text-decoration: underline; } }
+      @media all and (min-width: 576px) and (max-width: 767px) and (max-width: 575px) {
+        main > section.second > div {
+          width: 50%;
+          height: 360px;
+          position: relative; }
+          main > section.second > div .xxl-xl-lg {
+            display: none; }
+          main > section.second > div > div.box {
+            width: 100%;
+            height: inherit; }
+            main > section.second > div > div.box > a {
+              display: flex;
+              width: 100%;
+              height: inherit;
+              text-decoration: none;
+              color: #2997ff; }
+              main > section.second > div > div.box > a:hover {
+                text-decoration: underline; }
+              main > section.second > div > div.box > a > img {
+                width: 100%;
+                height: inherit;
+                object-fit: cover;
+                object-position: center; }
+          main > section.second > div > div.title {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            font-size: x-small;
+            text-align: center;
+            top: 70px;
+            display: flex;
+            flex-flow: column wrap;
+            gap: 10px;
+            align-items: center;
+            align-content: center; }
+            main > section.second > div > div.title > h2 {
+              font-size: 30px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              main > section.second > div > div.title > h2 img {
+                width: 100px;
+                height: 20px; }
+            main > section.second > div > div.title > h4 {
+              width: 100px;
+              height: 50px; }
+            main > section.second > div > div.title > h3 {
+              font-size: 15px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            main > section.second > div > div.title > div {
+              display: flex;
+              flex-flow: row nowrap;
+              gap: 10px; }
+            main > section.second > div > div.title > a {
+              padding: 0 20px;
+              font-size: 20px;
+              text-decoration: none;
+              color: #2997ff; }
+              main > section.second > div > div.title > a:hover {
+                text-decoration: underline; } }
 
-@media all and (min-width: 360px) and (max-width: 575px) {
+@media all and (max-width: 575px) {
   main {
     width: 100%;
     height: auto;
@@ -2545,17 +5142,17 @@ body {
         position: absolute;
         width: 100%;
         height: auto;
-        top: 47px;
+        top: 70px;
         display: flex;
         flex-flow: column wrap;
         gap: 10px;
         align-items: center;
         align-content: center; }
         main > section.first > div.title > h2 {
-          font-size: 50px;
+          font-size: 40px;
           font-family: fantasy, Geneva, Tahoma, sans-serif; }
         main > section.first > div.title > h3 {
-          font-size: 25px;
+          font-size: 15px;
           font-family: fantasy, Geneva, Tahoma, sans-serif; }
         main > section.first > div.title > div {
           display: flex;
@@ -2567,7 +5164,67 @@ body {
           text-decoration: none;
           color: #2997ff; }
           main > section.first > div.title > a:hover {
-            text-decoration: underline; }
+            text-decoration: underline; } }
+    @media all and (max-width: 575px) and (max-width: 575px) {
+      main > section.first {
+        width: 100%;
+        height: 360px;
+        position: relative; }
+        main > section.first .xxl-xl-lg {
+          display: none; }
+        main > section.first > div.box {
+          width: 100%;
+          height: inherit; }
+          main > section.first > div.box > a {
+            display: flex;
+            width: 100%;
+            height: inherit;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.first > div.box > a:hover {
+              text-decoration: underline; }
+            main > section.first > div.box > a > img {
+              width: 100%;
+              height: inherit;
+              object-fit: cover;
+              object-position: center; }
+        main > section.first > div.title {
+          position: absolute;
+          width: 100%;
+          height: auto;
+          font-size: x-small;
+          text-align: center;
+          top: 70px;
+          display: flex;
+          flex-flow: column wrap;
+          gap: 10px;
+          align-items: center;
+          align-content: center; }
+          main > section.first > div.title > h2 {
+            font-size: 30px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            main > section.first > div.title > h2 img {
+              width: 100px;
+              height: 20px; }
+          main > section.first > div.title > h4 {
+            width: 100px;
+            height: 50px; }
+          main > section.first > div.title > h3 {
+            font-size: 15px;
+            font-family: fantasy, Geneva, Tahoma, sans-serif; }
+          main > section.first > div.title > div {
+            display: flex;
+            flex-flow: row nowrap;
+            gap: 10px; }
+          main > section.first > div.title > a {
+            padding: 0 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #2997ff; }
+            main > section.first > div.title > a:hover {
+              text-decoration: underline; } }
+
+@media all and (max-width: 575px) {
     main > section.second {
       width: 100%;
       height: auto;
@@ -2598,17 +5255,17 @@ body {
           position: absolute;
           width: 100%;
           height: auto;
-          top: 47px;
+          top: 70px;
           display: flex;
           flex-flow: column wrap;
           gap: 10px;
           align-items: center;
           align-content: center; }
           main > section.second > div > div.title > h2 {
-            font-size: 50px;
+            font-size: 40px;
             font-family: fantasy, Geneva, Tahoma, sans-serif; }
           main > section.second > div > div.title > h3 {
-            font-size: 25px;
+            font-size: 15px;
             font-family: fantasy, Geneva, Tahoma, sans-serif; }
           main > section.second > div > div.title > div {
             display: flex;
@@ -2621,6 +5278,64 @@ body {
             color: #2997ff; }
             main > section.second > div > div.title > a:hover {
               text-decoration: underline; } }
+      @media all and (max-width: 575px) and (max-width: 575px) {
+        main > section.second > div {
+          width: 50%;
+          height: 360px;
+          position: relative; }
+          main > section.second > div .xxl-xl-lg {
+            display: none; }
+          main > section.second > div > div.box {
+            width: 100%;
+            height: inherit; }
+            main > section.second > div > div.box > a {
+              display: flex;
+              width: 100%;
+              height: inherit;
+              text-decoration: none;
+              color: #2997ff; }
+              main > section.second > div > div.box > a:hover {
+                text-decoration: underline; }
+              main > section.second > div > div.box > a > img {
+                width: 100%;
+                height: inherit;
+                object-fit: cover;
+                object-position: center; }
+          main > section.second > div > div.title {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            font-size: x-small;
+            text-align: center;
+            top: 70px;
+            display: flex;
+            flex-flow: column wrap;
+            gap: 10px;
+            align-items: center;
+            align-content: center; }
+            main > section.second > div > div.title > h2 {
+              font-size: 30px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+              main > section.second > div > div.title > h2 img {
+                width: 100px;
+                height: 20px; }
+            main > section.second > div > div.title > h4 {
+              width: 100px;
+              height: 50px; }
+            main > section.second > div > div.title > h3 {
+              font-size: 15px;
+              font-family: fantasy, Geneva, Tahoma, sans-serif; }
+            main > section.second > div > div.title > div {
+              display: flex;
+              flex-flow: row nowrap;
+              gap: 10px; }
+            main > section.second > div > div.title > a {
+              padding: 0 20px;
+              font-size: 20px;
+              text-decoration: none;
+              color: #2997ff; }
+              main > section.second > div > div.title > a:hover {
+                text-decoration: underline; } }
 
 :root {
   --bgcg0: rgb(224, 224, 224);
@@ -2628,7 +5343,9 @@ body {
   --bgc2: black;
   --bgc3: #252525; }
 
-@media all and (min-width: 1330px) {
+@media all and (min-width: 1400px) {
+  div.footer-md-sm-xs {
+    display: none; }
   footer.footer {
     width: 100%;
     height: 850px;
@@ -2760,7 +5477,9 @@ body {
       color: var(--bgc3);
       margin-top: -15px; } }
 
-@media all and (min-width: 1200px) and (max-width: 1329px) {
+@media all and (min-width: 1200px) and (max-width: 1399px) {
+  div.footer-md-sm-xs {
+    display: none; }
   footer.footer {
     width: 100%;
     height: 1000px;
@@ -2893,6 +5612,8 @@ body {
       margin-top: -15px; } }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
+  div.footer-md-sm-xs {
+    display: none; }
   footer.footer {
     width: 100%;
     height: 1000px;
@@ -3027,398 +5748,160 @@ body {
 @media all and (min-width: 768px) and (max-width: 991px) {
   footer.footer {
     width: 100%;
-    height: 850px;
+    height: 50%;
     background-color: var(--bgcg0);
-    list-style: none; }
-    footer.footer > li {
-      width: 80%;
-      height: 30px;
+    list-style: none;
+    display: none; } }
+
+div.footer-md-sm-xs {
+  width: inherit;
+  height: inherit; }
+  div.footer-md-sm-xs > section.A {
+    width: inherit;
+    height: inherit; }
+    div.footer-md-sm-xs > section.A > h4 {
       font-size: smaller;
+      font-weight: lighter;
       font-family: fantasy, Geneva, Tahoma, sans-serif;
-      display: flex;
-      flex-flow: row wrap;
-      margin-left: 150px;
-      color: var(--bgcg1); }
-    footer.footer div.fot1 {
+      color: #5a5a5a;
+      margin-left: 20px; }
+  div.footer-md-sm-xs section.D {
+    width: inherit;
+    height: inherit; }
+    div.footer-md-sm-xs section.D > li {
       font-size: smaller;
+      font-weight: 600;
       font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 150px;
-      box-sizing: content-box;
-      margin-top: 20px; }
-      footer.footer div.fot1 > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder; }
-      footer.footer div.fot1 > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none; }
-    footer.footer div.foot2 {
+      color: #5a5a5a;
+      list-style: none;
+      margin-top: 10px;
+      margin-left: 20px; }
+  div.footer-md-sm-xs section.B {
+    margin-top: -10px;
+    margin-left: 20px; }
+    div.footer-md-sm-xs section.B > h5 {
       font-size: smaller;
+      font-weight: lighter;
       font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 350px;
-      box-sizing: content-box;
-      margin-top: -345px; }
-      footer.footer div.foot2 > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder; }
-      footer.footer div.foot2 > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none; }
-    footer.footer div.foot3 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 600px;
-      box-sizing: content-box;
-      margin-top: -290px; }
-      footer.footer div.foot3 > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder; }
-      footer.footer div.foot3 > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none; }
-    footer.footer > div.foot4 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 840px;
-      box-sizing: content-box;
-      margin-top: -235px; }
-      footer.footer > div.foot4 > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder; }
-      footer.footer > div.foot4 > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none; }
-    footer.footer div.foot5 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 1120px;
-      box-sizing: content-box;
-      margin-top: -305px; }
-      footer.footer div.foot5 > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder; }
-      footer.footer div.foot5 > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none; }
-    footer.footer section.A {
-      width: 70%;
-      margin-left: 140px;
-      border-bottom: 1px solid #777777; }
-      footer.footer section.A > h4 {
-        font-size: smaller;
-        font-weight: lighter;
-        font-family: fantasy, Geneva, Tahoma, sans-serif;
-        color: #5a5a5a;
-        margin-top: 40px; }
-    footer.footer section.B {
-      margin-top: -30px;
-      margin-left: 140px; }
-      footer.footer section.B > h5 {
-        font-size: smaller;
-        font-weight: lighter;
-        font-family: fantasy, Geneva, Tahoma, sans-serif;
-        color: #5a5a5a;
-        margin-top: 40px; }
-    footer.footer section.C {
-      box-sizing: content-box; }
-      footer.footer section.C > ul {
-        display: flex;
-        flex-flow: row wrap;
-        list-style: none;
-        margin-left: 450px;
-        font-size: small;
-        font-weight: lighter;
-        font-family: fantasy, Geneva, Tahoma, sans-serif;
-        color: var(--bgc3);
-        margin-top: -15px; }
-    footer.footer section.D {
+      color: #5a5a5a;
+      margin-top: 30px; }
+  div.footer-md-sm-xs section.C {
+    box-sizing: content-box; }
+    div.footer-md-sm-xs section.C > ul {
       display: flex;
       flex-flow: row wrap;
       list-style: none;
-      margin-left: 1000px;
+      margin-left: 20px;
       font-size: small;
       font-weight: lighter;
       font-family: fantasy, Geneva, Tahoma, sans-serif;
-      color: var(--bgc3);
-      margin-top: -15px; } }
+      color: var(--bgcg1);
+      margin-top: 10px; }
 
 @media all and (min-width: 576px) and (max-width: 767px) {
   footer.footer {
     width: 100%;
-    height: 850px;
+    height: 50%;
     background-color: var(--bgcg0);
-    list-style: none; }
-    footer.footer > li {
-      width: 80%;
-      height: 30px;
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      display: flex;
-      flex-flow: row wrap;
-      margin-left: 150px;
-      color: var(--bgcg1); }
-    footer.footer div.fot1 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 150px;
-      box-sizing: content-box;
-      margin-top: 20px; }
-      footer.footer div.fot1 > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder; }
-      footer.footer div.fot1 > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none; }
-    footer.footer div.foot2 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 350px;
-      box-sizing: content-box;
-      margin-top: -345px; }
-      footer.footer div.foot2 > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder; }
-      footer.footer div.foot2 > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none; }
-    footer.footer div.foot3 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 600px;
-      box-sizing: content-box;
-      margin-top: -290px; }
-      footer.footer div.foot3 > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder; }
-      footer.footer div.foot3 > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none; }
-    footer.footer > div.foot4 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 840px;
-      box-sizing: content-box;
-      margin-top: -235px; }
-      footer.footer > div.foot4 > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder; }
-      footer.footer > div.foot4 > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none; }
-    footer.footer div.foot5 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 1120px;
-      box-sizing: content-box;
-      margin-top: -305px; }
-      footer.footer div.foot5 > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder; }
-      footer.footer div.foot5 > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none; }
-    footer.footer section.A {
-      width: 70%;
-      margin-left: 140px;
-      border-bottom: 1px solid #777777; }
-      footer.footer section.A > h4 {
+    list-style: none;
+    display: none; }
+  div.footer-md-sm-xs {
+    width: inherit;
+    height: inherit; }
+    div.footer-md-sm-xs > section.A {
+      width: inherit;
+      height: inherit; }
+      div.footer-md-sm-xs > section.A > h4 {
         font-size: smaller;
         font-weight: lighter;
         font-family: fantasy, Geneva, Tahoma, sans-serif;
         color: #5a5a5a;
-        margin-top: 40px; }
-    footer.footer section.B {
-      margin-top: -30px;
-      margin-left: 140px; }
-      footer.footer section.B > h5 {
+        margin-left: 20px; }
+    div.footer-md-sm-xs section.D {
+      width: inherit;
+      height: inherit; }
+      div.footer-md-sm-xs section.D > li {
+        font-size: smaller;
+        font-weight: 600;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        list-style: none;
+        margin-top: 10px;
+        margin-left: 20px; }
+    div.footer-md-sm-xs section.B {
+      margin-top: -10px;
+      margin-left: 20px; }
+      div.footer-md-sm-xs section.B > h5 {
         font-size: smaller;
         font-weight: lighter;
         font-family: fantasy, Geneva, Tahoma, sans-serif;
         color: #5a5a5a;
-        margin-top: 40px; }
-    footer.footer section.C {
+        margin-top: 30px; }
+    div.footer-md-sm-xs section.C {
       box-sizing: content-box; }
-      footer.footer section.C > ul {
+      div.footer-md-sm-xs section.C > ul {
         display: flex;
         flex-flow: row wrap;
         list-style: none;
-        margin-left: 450px;
+        margin-left: 20px;
         font-size: small;
         font-weight: lighter;
         font-family: fantasy, Geneva, Tahoma, sans-serif;
-        color: var(--bgc3);
-        margin-top: -15px; }
-    footer.footer section.D {
-      display: flex;
-      flex-flow: row wrap;
-      list-style: none;
-      margin-left: 1000px;
-      font-size: small;
-      font-weight: lighter;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      color: var(--bgc3);
-      margin-top: -15px; } }
+        color: var(--bgcg1);
+        margin-top: 10px; } }
 
-@media all and (min-width: 360px) and (max-width: 575px) {
+@media all and (max-width: 575px) {
   footer.footer {
     width: 100%;
-    height: 850px;
+    height: 50%;
     background-color: var(--bgcg0);
-    list-style: none; }
-    footer.footer > li {
-      width: 80%;
-      height: 30px;
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      display: flex;
-      flex-flow: row wrap;
-      margin-left: 150px;
-      color: var(--bgcg1); }
-    footer.footer div.fot1 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 150px;
-      box-sizing: content-box;
-      margin-top: 20px; }
-      footer.footer div.fot1 > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder; }
-      footer.footer div.fot1 > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none; }
-    footer.footer div.foot2 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 350px;
-      box-sizing: content-box;
-      margin-top: -345px; }
-      footer.footer div.foot2 > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder; }
-      footer.footer div.foot2 > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none; }
-    footer.footer div.foot3 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 600px;
-      box-sizing: content-box;
-      margin-top: -290px; }
-      footer.footer div.foot3 > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder; }
-      footer.footer div.foot3 > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none; }
-    footer.footer > div.foot4 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 840px;
-      box-sizing: content-box;
-      margin-top: -235px; }
-      footer.footer > div.foot4 > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder; }
-      footer.footer > div.foot4 > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none; }
-    footer.footer div.foot5 {
-      font-size: smaller;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      margin-left: 1120px;
-      box-sizing: content-box;
-      margin-top: -305px; }
-      footer.footer div.foot5 > ul {
-        color: var(--bgcg2);
-        font-size: 12px;
-        font-weight: bolder; }
-      footer.footer div.foot5 > li {
-        color: var(--bgcg1);
-        font-size: small;
-        padding: 2px;
-        text-decoration: none; }
-    footer.footer section.A {
-      width: 70%;
-      margin-left: 140px;
-      border-bottom: 1px solid #777777; }
-      footer.footer section.A > h4 {
+    list-style: none;
+    display: none; }
+  div.footer-md-sm-xs {
+    width: inherit;
+    height: inherit; }
+    div.footer-md-sm-xs > section.A {
+      width: inherit;
+      height: inherit; }
+      div.footer-md-sm-xs > section.A > h4 {
         font-size: smaller;
         font-weight: lighter;
         font-family: fantasy, Geneva, Tahoma, sans-serif;
         color: #5a5a5a;
-        margin-top: 40px; }
-    footer.footer section.B {
-      margin-top: -30px;
-      margin-left: 140px; }
-      footer.footer section.B > h5 {
+        margin-left: 20px; }
+    div.footer-md-sm-xs section.D {
+      width: inherit;
+      height: 30px; }
+      div.footer-md-sm-xs section.D > li {
+        font-size: smaller;
+        font-weight: 600;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        color: #5a5a5a;
+        list-style: none;
+        margin-top: 10px;
+        margin-left: 20px; }
+    div.footer-md-sm-xs section.B {
+      margin-top: -10px;
+      margin-left: 20px; }
+      div.footer-md-sm-xs section.B > h5 {
         font-size: smaller;
         font-weight: lighter;
         font-family: fantasy, Geneva, Tahoma, sans-serif;
         color: #5a5a5a;
-        margin-top: 40px; }
-    footer.footer section.C {
+        margin-top: 20px; }
+    div.footer-md-sm-xs section.C {
       box-sizing: content-box; }
-      footer.footer section.C > ul {
+      div.footer-md-sm-xs section.C > ul {
         display: flex;
         flex-flow: row wrap;
         list-style: none;
-        margin-left: 450px;
-        font-size: small;
+        margin-left: 20px;
+        font-size: x-small;
         font-weight: lighter;
         font-family: fantasy, Geneva, Tahoma, sans-serif;
-        color: var(--bgc3);
-        margin-top: -15px; }
-    footer.footer section.D {
-      display: flex;
-      flex-flow: row wrap;
-      list-style: none;
-      margin-left: 1000px;
-      font-size: small;
-      font-weight: lighter;
-      font-family: fantasy, Geneva, Tahoma, sans-serif;
-      color: var(--bgc3);
-      margin-top: -15px; } }
+        color: var(--bgcg1);
+        margin-top: 20px;
+        margin-bottom: 20px; } }
 
 .swiper {
   width: 100%;
@@ -3465,3 +5948,47 @@ body {
   stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
   stroke-dasharray: 125.6;
   transform: rotate(-90deg); }
+
+@media all and (max-width: 575px) {
+  .swiper {
+    width: 100%;
+    height: 200px; }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 10px; }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; }
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color); }
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg); } }

@@ -24,18 +24,18 @@
     position: absolute;
     @include WH(100%, auto);
     // background-color: tomato;
-    top: 47px;
+    top: 70px;
     @include FlexC;
     align-items: center;
     align-content: center;
 
     > h2 {
-      font-size: 50px;
+      font-size: 40px;
 
       font-family: fantasy, Geneva, Tahoma, sans-serif;
     }
     > h3 {
-      font-size: 25px;
+      font-size: 15px;
 
       font-family: fantasy, Geneva, Tahoma, sans-serif;
     }
@@ -43,12 +43,82 @@
       @include FlexR;
     }
     > a {
-      padding:  0 20px;
+      padding: 0 20px;
       font-size: 20px;
       text-decoration: none;
       color: $linkcolor;
       &:hover {
         text-decoration: underline;
+      }
+    }
+  }
+
+  @include xs {
+    .xxl-xl-lg {
+      display: none;
+    }
+
+    @include WH($width, 360px);
+    position: relative;
+    > div.box {
+      width: 100%;
+      height: inherit;
+      > a {
+        display: flex;
+        width: 100%;
+        height: inherit;
+        text-decoration: none;
+        color: $linkcolor;
+        &:hover {
+          text-decoration: underline;
+        }
+        > img {
+          @include WH(100%, inherit);
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+    }
+    > div.title {
+      position: absolute;
+      @include WH(100%, auto);
+      // background-color: tomato;
+      font-size: x-small;
+      text-align: center;
+      top: 70px;
+      @include FlexC;
+      align-items: center;
+      align-content: center;
+
+      > h2 {
+        font-size: 30px;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+        img {
+          width: 100px;
+          height: 20px;
+        }
+      }
+
+      > h4 {
+        width: 100px;
+        height: 50px;
+      }
+
+      > h3 {
+        font-size: 15px;
+        font-family: fantasy, Geneva, Tahoma, sans-serif;
+      }
+      > div {
+        @include FlexR;
+      }
+      > a {
+        padding: 0 20px;
+        font-size: 20px;
+        text-decoration: none;
+        color: $linkcolor;
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
